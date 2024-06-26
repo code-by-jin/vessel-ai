@@ -24,7 +24,7 @@ def plot_artery_ann(vis, cnt_outer, cnts_mid, cnts_inner, cnts_hya = None, cnt_t
     cv2.drawContours(vis_copy, cnts_mid, -1, [0, 255, 0], cnt_thick)    # Middle contours in green
     cv2.drawContours(vis_copy, cnts_inner, -1, [0, 0, 255], cnt_thick)  # Inner contours in blue
     if cnts_hya is not None:
-        cv2.drawContours(vis_copy, cnts_hya, -1, [0, 255, 255], cnt_thick)  # Inner contours in blue
+        cv2.drawContours(vis_copy, cnts_hya, -1, [128, 0, 128], cnt_thick)  # Inner contours in blue
 
     # Return the modified copy
     return vis_copy

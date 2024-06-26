@@ -1,8 +1,11 @@
 import os
 import sys
 import pandas as pd
+import geojson
 
 sys.path.append(os.path.abspath('..'))
+from utils.utils_geometry import clean_geojson_annotations
+
 
 import logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -21,3 +24,12 @@ def get_classifications(classifications_path, sheet_name, available_sheets, remo
         return df[df["Artery Type"] != "Others"]
     else:
         return df
+
+
+def get_segmentations(segmentations_path, clean=True):
+    with open(segmentations_path) as f:
+        exported = geojson.load(f)
+        annotations = exported['features']
+    if clean:
+        annotations = clean_geojson_annotations(annotations)
+    return annotations

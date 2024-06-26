@@ -34,8 +34,6 @@ FEATURES_PATH = "/DataMount/NEPTUNE/Vessel_Project/features_0603.xlsx"
 TRI_CASE_DIR = "/DataMount/NEPTUNE/Vessel_Project/TRI/"
 CROPPED_VESSELS_DIR = "/DataMount/NEPTUNE/Vessel_Project/Cropped_Vessels"
 
-
-
 # Labelbox Keys, need to be remove when making the repo public
 LABELBOX_API_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJja2J1NDB3a2ExMzl2MDgzMDV0bjZ1ejB2Iiwib3JnYW5pemF0aW9uSWQiOiJja2J1NDB3anY1M3ZiMDcxM2psNms1aGowIiwiYXBpS2V5SWQiOiJjbHVpbHU0dzQwMDUwMDd4cmc0bnUxdGUzIiwic2VjcmV0IjoiZDM4OWZmOThhMjFkMWZhYTY1ZWRiYWYyOWZmMTNjYjUiLCJpYXQiOjE3MTIwNzU5ODUsImV4cCI6MjM0MzIyNzk4NX0.bpJc5JcxnbP58I3KvAPehFDL9MAsDV4yCUUCqixfoTw'
 PROJECT_KEY_1 = 'cltkig4hn00vi07wshjvt0s6e'
