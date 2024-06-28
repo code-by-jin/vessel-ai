@@ -47,9 +47,10 @@ for i, (_, row) in enumerate(pat_df.iterrows()):
         cnt_outer, cnts_middle, cnts_inner, cnts_hys = get_contours(segmentations, slide_basename, row["Image Name"], 
                                                                     bbox_x, bbox_y, bbox_width, bbox_height)
         img = np.array(slide.read_region((bbox_x, bbox_y), 0, (bbox_width, bbox_height)).convert("RGB"))
-        path_img_to_save = os.path.join(CROPPED_VESSELS_DIR, row["Artery Type"], row["Image Name"])
+        path_img_to_save = os.path.join(CROPPED_VESSELS_DIR, row["Artery Type"], 
+                                        row["Image Name"].replace(".png", "_ori.png"))
         save_image(img, path_img_to_save)
         img_w_ann = plot_artery_ann(img, cnt_outer, cnts_middle, cnts_inner, cnts_hys)
-        save_image(img_w_ann, path_img_to_save.replace(".png", "_w_ann.png"))
+        save_image(img_w_ann, path_img_to_save.replace("_ori.png", "_w_ann.png"))
         mask = plot_artery_ann(np.zeros(img.shape, dtype=np.uint8), cnt_outer, cnts_middle, cnts_inner, cnts_hys, -1)
-        save_image(mask, path_img_to_save.replace(".png", "_mask.png"))
+        save_image(mask, path_img_to_save.replace("_ori.png", "_mask.png"))
