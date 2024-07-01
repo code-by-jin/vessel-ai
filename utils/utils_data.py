@@ -2,6 +2,7 @@ import os
 import sys
 import pandas as pd
 import geojson
+import json
 
 sys.path.append(os.path.abspath('..'))
 from utils.utils_geometry import clean_geojson_annotations
@@ -9,6 +10,24 @@ from utils.utils_geometry import clean_geojson_annotations
 
 import logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+
+
+class Config:
+    def __init__(self, config_file):
+        with open(config_file, 'r') as file:
+            self.config = json.load(file)
+        logging.info(f"Configuration loaded from {config_file}")
+
+    def get(self, path, default=None):
+        keys = path.split('.')
+        value = self.config
+        for key in keys:
+            if key in value:
+                value = value[key]
+            else:
+                return default
+        return value
+    
 
 def read_df_from_json(path_json):
     df = pd.read_json(path_json, orient="records", lines=True)

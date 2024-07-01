@@ -17,7 +17,7 @@ np.random.seed(0)
 
 from PIL import Image
 
-from data_util import VesselDataset
+from vessel_ai.step_4_inner_structure_segmentation.datasets import VesselDataset
 
 sys.path.append(os.path.abspath('..'))
 from utils.utils_vis import save_image

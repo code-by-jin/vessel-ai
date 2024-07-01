@@ -23,18 +23,17 @@ def rgb_to_mask(rgb_image):
 
 
 class VesselDataset(Dataset):
-    def __init__(self, root, train=True, transform=None, target_transform=None):
-        self.root = root
-        self.train = train
+    def __init__(self, img_path_list, mask_suffix, transform=None, target_transform=None, transform_seed=0):
+        self.img_path_list = img_path_list
+        self.mask_suffix = mask_suffix
         self.transform = transform
         self.target_transform = target_transform
-        self.imgs = sorted([s for s in os.listdir(root) if s.endswith("_ori.png")])
-        self.targets = sorted([s for s in os.listdir(root) if s.endswith("_mask.png")])
+        self.transform_seed = transform_seed
 
     def __getitem__(self, idx):
         # Load images and masks
-        img_path = os.path.join(self.root, self.imgs[idx])
-        target_path = os.path.join(self.root, self.targets[idx])
+        img_path = self.img_path_list[idx]
+        target_path = img_path.replace("_ori.png", self.mask_suffix)
         img = Image.open(img_path).convert("RGB")
         img = np.array(img)
 
@@ -46,15 +45,15 @@ class VesselDataset(Dataset):
         target = rgb_to_mask(target)
         
         if self.transform is not None:
-            torch.manual_seed(0)
+            torch.manual_seed(self.transform_seed)
             img = self.transform(img)
         if self.target_transform is not None:
-            torch.manual_seed(0)
+            torch.manual_seed(self.transform_seed)
             target = self.target_transform(target)
-        return self.imgs[idx], img, target, w_ori, h_ori
+        return img_path, img, target, w_ori, h_ori
 
     def __len__(self):
-        return len(self.imgs)
+        return len(self.img_path_list)
     
 
 # # Define the path to your dataset
