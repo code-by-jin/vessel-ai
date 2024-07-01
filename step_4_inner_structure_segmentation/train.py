@@ -56,7 +56,7 @@ def train_model(model, dataloaders, criterion, optimizer, scheduler,
             logging.info(f'Saving new best model with Val Loss: {best_loss:.4f}')
             state = {'epoch': epoch + 1, 'model_dict': model.state_dict(), 'losses': losses}
             torch.save(state, save_path.replace(".pth", "_best.pth"))
-            
+
         scheduler.step()
     
     # At the end of all epochs, save the final model and losses together
@@ -170,7 +170,6 @@ def main():
                 config.get('training.num_epochs'), config.get("training.edge_weight"), device, save_path)
     end_time = time.time()
     logging.info(f'Training completed in {(end_time - start_time)/60:.2f} minutes.')
-
 
 if __name__ == "__main__":
     main()

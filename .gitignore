@@ -61,3 +61,7 @@ coverage.xml
 # virtual environments
 venv/
 ENV/
+
+# Deep learning
+.pth
+.npy

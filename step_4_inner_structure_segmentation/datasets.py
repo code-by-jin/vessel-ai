@@ -23,8 +23,9 @@ def rgb_to_mask(rgb_image):
 
 
 class VesselDataset(Dataset):
-    def __init__(self, img_path_list, mask_suffix, transform=None, target_transform=None, transform_seed=0):
+    def __init__(self, img_path_list, test=False, mask_suffix=None, transform=None, target_transform=None, transform_seed=0):
         self.img_path_list = img_path_list
+        self.test = test
         self.mask_suffix = mask_suffix
         self.transform = transform
         self.target_transform = target_transform
@@ -33,27 +34,62 @@ class VesselDataset(Dataset):
     def __getitem__(self, idx):
         # Load images and masks
         img_path = self.img_path_list[idx]
-        target_path = img_path.replace("_ori.png", self.mask_suffix)
         img = Image.open(img_path).convert("RGB")
+        w_ori, h_ori = img.size
         img = np.array(img)
-
-        target = Image.open(target_path).convert("RGB")
-        w_ori, h_ori = target.size
-
-        # Convert RGB mask to categorical labels
-        target = np.array(target)
-        target = rgb_to_mask(target)
-        
         if self.transform is not None:
             torch.manual_seed(self.transform_seed)
             img = self.transform(img)
-        if self.target_transform is not None:
-            torch.manual_seed(self.transform_seed)
-            target = self.target_transform(target)
+
+        target = torch.zeros(1, dtype=torch.long)  # Placeholder tensor
+        if not self.test:
+            target_path = img_path.replace("_ori.png", self.mask_suffix)
+            target = Image.open(target_path).convert("RGB")
+            # Convert RGB mask to categorical labels
+            target = np.array(target)
+            target = rgb_to_mask(target)
+            if self.target_transform is not None:
+                torch.manual_seed(self.transform_seed)
+                target = self.target_transform(target)
         return img_path, img, target, w_ori, h_ori
 
     def __len__(self):
         return len(self.img_path_list)
+    
+
+
+class VesselClassificationDataset(Dataset):
+    def __init__(self, img_path_list, test=False, transform=None, transform_seed=0):
+        self.img_path_list = img_path_list
+        self.test = test
+        self.transform = transform
+        self.transform_seed = transform_seed
+
+    def __getitem__(self, idx):
+        # Load images and masks
+        img_path = self.img_path_list[idx]
+        img = Image.open(img_path).convert("RGB")
+        w_ori, h_ori = img.size
+        img = np.array(img)
+        if self.transform is not None:
+            torch.manual_seed(self.transform_seed)
+            img = self.transform(img)
+
+        target = torch.zeros(1, dtype=torch.long)  # Placeholder tensor
+        if not self.test:
+            target_path = img_path.replace("_ori.png", self.mask_suffix)
+            target = Image.open(target_path).convert("RGB")
+            # Convert RGB mask to categorical labels
+            target = np.array(target)
+            target = rgb_to_mask(target)
+            if self.target_transform is not None:
+                torch.manual_seed(self.transform_seed)
+                target = self.target_transform(target)
+        return img_path, img, target, w_ori, h_ori
+
+    def __len__(self):
+        return len(self.img_path_list)
+
     
 
 # # Define the path to your dataset
