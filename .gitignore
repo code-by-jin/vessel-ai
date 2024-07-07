@@ -63,5 +63,5 @@ venv/
 ENV/
 
 # Deep learning
-.pth
-.npy
+*.pth
+*.npy
