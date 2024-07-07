@@ -5,10 +5,13 @@ import cv2
 import matplotlib.pyplot as plt
 
 
-def save_image(img: np.ndarray, path_to_save: str) -> None:
+def save_image(img: np.ndarray, path_to_save: str, resize = None) -> None:
     """Save the image to the specified path."""
     os.makedirs(os.path.dirname(path_to_save), exist_ok=True)
-    Image.fromarray(img).save(path_to_save)
+    img =  Image.fromarray(img)
+    if resize is not None:
+        img = img.resize(resize, resample=Image.NEAREST)
+    img.save(path_to_save)
 
 def save_fig(fig, path_to_save):
     fig.savefig(path_to_save, format='png', bbox_inches='tight')

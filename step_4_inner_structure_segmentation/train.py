@@ -13,7 +13,6 @@ from datetime import datetime
 
 import sys
 sys.path.append(os.path.abspath('..'))
-from utils.utils_constants import CROPPED_VESSELS_DIR
 from utils.utils_data import Config
 
 import logging
@@ -142,6 +141,7 @@ def main():
     # Initialize datasets
     datasets = {
         phase: Dataset(
+            task = config.get("task"),
             img_path_list = config.get(f"data.{phase}_files"), 
             mask_suffix = "_mask.png",
             transform = transforms_dict[phase], 
@@ -163,7 +163,7 @@ def main():
 
     logging.info("Starting training process...")
     timestamp = datetime.now().strftime("%Y%m%d-%H%M%S")
-    save_path = os.path.join("models", f"{config.get('data.dataname')}_model_{timestamp}.pth")
+    save_path = os.path.join("models", f"{config.get('task')}_model_{timestamp}.pth")
     os.makedirs(os.path.dirname(save_path), exist_ok=True)
 
     train_model(model, dataloaders, criterion, optimizer, scheduler,

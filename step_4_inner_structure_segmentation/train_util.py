@@ -17,25 +17,8 @@ np.random.seed(0)
 
 from PIL import Image
 
-from vessel_ai.step_4_inner_structure_segmentation.datasets import VesselDataset
-
 sys.path.append(os.path.abspath('..'))
-from utils.utils_vis import save_image
-
-
-def dice_coef(y_true, y_pred):
-    y_true_f = y_true.flatten()
-    y_pred_f = y_pred.flatten()
-    intersection = np.sum(y_true_f * y_pred_f)
-    smooth = 0.0001
-    return (2. * intersection + smooth) / (np.sum(y_true_f) + np.sum(y_pred_f) + smooth)
-
-def dice_coef_multilabel(y_true, y_pred, numLabels):
-    dice_list = []
-    for index in range(numLabels):
-        dice = dice_coef(y_true==index, y_pred==index)
-        dice_list.append(dice)
-    return dice_list # taking average
+from vessel_ai.step_4_inner_structure_segmentation.datasets import VesselDataset
 
 
 def train(device, root, net, epochs, batch_size, lr, reg, log_every_n=1):

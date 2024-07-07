@@ -9,18 +9,16 @@ import torchvision.transforms as transforms
 from unet import UNet
 from datasets import VesselDataset as Dataset
 import time
-from datetime import datetime
-from PIL import Image
 
 import sys
 sys.path.append(os.path.abspath('..'))
 from utils.utils_data import Config
+from utils.utils_vis import save_image
 import logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 
-
-def run_inference(model, dataloader, device):
+def run_inference(model, dataloader, num_classes, save_dir, pred_suffix, device):
     for img_paths, inputs, _, w_ori, h_ori in dataloader:
         inputs = inputs.to(device)
         outputs = model(inputs)
@@ -28,10 +26,11 @@ def run_inference(model, dataloader, device):
 
         for i, output in enumerate(outputs):
             img_path = img_paths[i]
+            img_name = os.path.basename(img_path)
             output = np.argmax(output, axis = 0).astype(np.uint8)
-            pred_img = Image.fromarray((output*(255/4)).astype(np.uint8))
-            pred_img = pred_img.resize((w_ori, h_ori), resample=Image.NEAREST)
-            pred_img.save(img_path.replace("_ori.png", '_pred.png'))
+            pred = (output*(255/(num_classes-1))).astype(np.uint8)
+            pred_path = os.path.join(save_dir, img_name.replace("_ori.png", pred_suffix))
+            save_image(pred, pred_path, (w_ori, h_ori))
 
 def parse_arguments():
     parser = argparse.ArgumentParser(description="Train a U-Net model for image segmentation.")
@@ -72,7 +71,6 @@ def main():
 
     logging.info(f"Model initialized")
 
-    
     transform = transforms.Compose([
         transforms.ToPILImage(),
         transforms.Resize((256, 256)),  # Specify desired height and width
@@ -81,7 +79,8 @@ def main():
   
     # Initialize datasets
     dataset = Dataset(
-        img_path_list = config.get(f"inference.inference_files"), 
+        task = config.get("task"),
+        img_path_list = config.get("inference.inference_files"), 
         test = True,
         transform = transform)
 
@@ -96,15 +95,12 @@ def main():
         ) 
     
     logging.info(f"Datasets and dataloaders initialized")
+    logging.info("Starting Inference process...")
 
-    logging.info("Starting training process...")
-    # timestamp = datetime.now().strftime("%Y%m%d-%H%M%S")
-    # save_path = os.path.join("models", f"{config.get('data.dataname')}_model_{timestamp}.pth")
-    # os.makedirs(os.path.dirname(save_path), exist_ok=True)
-
-    run_inference(model, dataloader, device)
+    run_inference(model, dataloader, config.get('net.n_classes'), 
+                  config.get('inference.save_dir'), config.get('inference.pred_suffix'), device)
     end_time = time.time()
-    logging.info(f'Training completed in {(end_time - start_time)/60:.2f} minutes.')
+    logging.info(f'Inference completed in {(end_time - start_time)/60:.2f} minutes.')
 
 if __name__ == "__main__":
     main()
