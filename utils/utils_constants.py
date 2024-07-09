@@ -28,7 +28,7 @@ VESSEL_SEGMENTATION_REF_PATH = "/DataMount/NEPTUNE/Vessel_Project/data_selection
 INNER_SEGMENTATION_REF_DIR = "/DataMount/NEPTUNE/Vessel_Project/data_selection/ann_geojson/batch_0_manual_annotated"
 
 MEASUREMENTS_PATH = "/DataMount/NEPTUNE/Vessel_Project/thickness_measurements/thickness_0707.json"
-FEATURES_PATH = "/DataMount/NEPTUNE/Vessel_Project/features_0603.xlsx"
+FEATURES_PATH = "/DataMount/NEPTUNE/Vessel_Project/features_0707.xlsx"
 
 # Data paths
 TRI_CASE_DIR = "/DataMount/NEPTUNE/Vessel_Project/TRI/"
