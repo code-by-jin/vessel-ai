@@ -19,7 +19,11 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 
 
 def run_inference(model, dataloader, num_classes, save_dir, pred_suffix, device):
-    for img_paths, inputs, _, w_ori, h_ori in dataloader:
+    total_batches = len(dataloader)
+
+    for batch_id, (img_paths, inputs, _, w_oris, h_oris) in enumerate(dataloader):
+        logging.info(f"Processing batch {batch_id+1}/{total_batches}")
+
         inputs = inputs.to(device)
         outputs = model(inputs)
         outputs = outputs.cpu().detach().numpy()
@@ -30,7 +34,7 @@ def run_inference(model, dataloader, num_classes, save_dir, pred_suffix, device)
             output = np.argmax(output, axis = 0).astype(np.uint8)
             pred = (output*(255/(num_classes-1))).astype(np.uint8)
             pred_path = os.path.join(save_dir, img_name.replace("_ori.png", pred_suffix))
-            save_image(pred, pred_path, (w_ori, h_ori))
+            save_image(pred, pred_path, (w_oris[i], h_oris[i]))
 
 def parse_arguments():
     parser = argparse.ArgumentParser(description="Train a U-Net model for image segmentation.")

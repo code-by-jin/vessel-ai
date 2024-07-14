@@ -15,7 +15,7 @@ NEPTUNE_PAT_INFO_PATH = "/DataMount/NEPTUNE/Clinical_Data/Barisoni_NEPTUNE_clini
 NEPTUNE_WSI_INFO_PATH= "/DataMount/NEPTUNE/Clinical_Data/NEPTUNE Spreadsheet 20230216.xlsx"
 VESSEL_NEPTUNE_PAT_INFO_PATH = "/DataMount/NEPTUNE/Clinical_Data/Barisoni_NEPTUNE_clinical_20230620_Vessel_20240625.csv"
 VESSEL_NEPTUNE_PAT_INFO_W_SCORE_PATH = "/DataMount/NEPTUNE/Clinical_Data/Barisoni_NEPTUNE_clinical_20230620_Vessel_20240615_W_SCORE.csv"
-VESSEL_NEPTUNE_PAT_INFO_W_SCORE_W_FEATURE_PATH = "/DataMount/NEPTUNE/Clinical_Data/Barisoni_NEPTUNE_clinical_20230620_Vessel_20240615_W_SCORE_W_FEATURE.csv"
+VESSEL_NEPTUNE_PAT_INFO_W_SCORE_W_FEATURE_PATH = "/DataMount/NEPTUNE/Clinical_Data/Barisoni_NEPTUNE_clinical_20230620_Vessel_20240710_W_SCORE_W_FEATURE.csv"
 
 # Classification Path
 CLASSIFICATION_PATH = "/DataMount/NEPTUNE/Vessel_Project/data_selection/Neptune_Artery_Classification_Sheets.xlsx"
