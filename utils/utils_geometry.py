@@ -198,9 +198,7 @@ def get_contours(segmentations, slide_basename, image_name, bbox_x, bbox_y, bbox
     )
 
     if len(outer_contours) != 1:
-        logging.warning(
-                f"Expected one outer contour for {slide_basename}, found {len(outer_contours)}."
-            )
+        raise Exception(f"Expected one outer contour for {slide_basename}, found {len(outer_contours)}.")
 
     outer_contour = outer_contours[0]
     middle_contours = get_contours_by_classification(
@@ -221,11 +219,6 @@ def get_contours(segmentations, slide_basename, image_name, bbox_x, bbox_y, bbox
         lambda contour: is_contour_intersecting_or_within(contour, outer_contour),
         "Hyalinosis"
     )
-
-    if not middle_contours or not inner_contours:
-        logging.warning(
-                f"Missing Intima or Lumen contours for {slide_basename} in image {image_name}."
-            )
 
     # Offset the contours to adjust for the bounding box extraction
     adjusted_outer = offset_contours([outer_contour], (bbox_x, bbox_y))[0]

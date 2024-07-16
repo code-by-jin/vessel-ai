@@ -29,11 +29,6 @@ class Config:
         return value
     
 
-def read_df_from_json(path_json):
-    df = pd.read_json(path_json, orient="records", lines=True)
-    return df
-
-
 def get_classifications(classifications_path, sheet_name, available_sheets, remove_others=True):
     if sheet_name not in available_sheets:
         logging.info(f"Sheet {sheet_name} not found in the classifications file.")
@@ -52,3 +47,21 @@ def get_segmentations(segmentations_path, clean=True):
     if clean:
         annotations = clean_geojson_annotations(annotations)
     return annotations
+
+
+def read_df_from_json(path_json):
+    df = pd.read_json(path_json, orient="records", lines=True)
+    return df
+
+
+# def clean_measurements(combined_measurements):
+#     combined_measurements = combined_measurements.reset_index(drop=True)
+#     # for col in ['Arteriosclerosis Severity', 'Hyalinosis Severity']:
+#     #     combined_measurements[col] = combined_measurements[col].map(CLASSIFICATION_SEVERITY_MAPPING)
+#     combined_measurements.loc[:, "WSI_Fake_Name"] = combined_measurements.loc[:, "Image Name"].str[:18]
+#     return combined_measurements
+
+def get_measurements(measurements_path, clean=True):
+    with open(measurements_path, 'r') as file:
+        slide_measurements = json.load(file)
+    return slide_measurements

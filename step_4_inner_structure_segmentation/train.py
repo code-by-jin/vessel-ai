@@ -143,7 +143,7 @@ def main():
         phase: Dataset(
             task = config.get("task"),
             img_path_list = config.get(f"data.{phase}_files"), 
-            mask_suffix = "_mask.png",
+            mask_suffix = config.get(f"data.mask_suffix"),
             transform = transforms_dict[phase], 
             target_transform = target_transform_dict[phase]
         ) for phase in ["train", "val"]

@@ -11,7 +11,6 @@ def rgb_to_mask_intra_arterial(rgb_image):
         (255, 0, 0): 1,   # Outer contour in red
         (0, 255, 0): 2,   # Middle contours in green
         (0, 0, 255): 3,   # Inner contours in blue
-        (128, 0, 128): 4, # Hyalinosis contours in purple
         (0, 0, 0): 0      # Background
     }
     label_mask = np.zeros((rgb_image.shape[0], rgb_image.shape[1]), dtype=np.uint8)
