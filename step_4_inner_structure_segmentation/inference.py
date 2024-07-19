@@ -53,7 +53,6 @@ def main():
         raise FileNotFoundError(f"Configuration file not found: {config_path}")
     config = Config(config_path)
     device = torch.device(f'cuda:{config.get("inference.gpu_id")}' if torch.cuda.is_available() else 'cpu')
-    print(device)
 
     # Initialize model
     model = UNet(

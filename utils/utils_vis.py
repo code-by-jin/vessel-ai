@@ -31,3 +31,33 @@ def plot_artery_ann(vis, cnt_outer, cnts_mid, cnts_inner, cnts_hya = None, cnt_t
 
     # Return the modified copy
     return vis_copy
+
+
+def gallery_view(images, titles, cols=5):
+    # Number of images to show per page/view
+    num_images = len(images)
+    rows_per_view = 1  # Show one row at a time
+
+    # Calculate the number of views needed
+    total_views = (num_images + cols - 1) // cols
+
+    for view in range(total_views):
+        start_index = view * cols
+        end_index = min(start_index + cols, num_images)
+        fig, axs = plt.subplots(rows_per_view, cols, figsize=(15, 5 * rows_per_view))
+        axs = axs.ravel()
+        for i in range(cols):
+            index = start_index + i
+            if index < end_index:
+                image = images[index]
+                # Rotate image if width is greater than height
+                if image.shape[1] > image.shape[0]:  # image.shape gives (height, width, channels)
+                    image = np.rot90(image)  # Rotate 90 degrees
+                axs[i].imshow(image)
+                axs[i].set_title(titles[index], fontsize=18)
+                axs[i].axis('off')
+            else:
+                axs[i].axis('off')
+        plt.tight_layout()
+        # Save the figure to file
+        plt.show()
