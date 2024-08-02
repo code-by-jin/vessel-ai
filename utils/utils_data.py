@@ -27,13 +27,13 @@ class Config:
             else:
                 return default
         return value
-    
 
-def get_classifications(classifications_path, sheet_name, available_sheets, remove_others=True):
+
+def get_veesel_sheets(sheets_path, sheet_name, available_sheets, remove_others=True):
     if sheet_name not in available_sheets:
         logging.info(f"Sheet {sheet_name} not found in the classifications file.")
         return pd.DataFrame()
-    df = pd.read_excel(classifications_path, sheet_name=sheet_name)
+    df = pd.read_excel(sheets_path, sheet_name=sheet_name)
     if remove_others:
         return df[df["Artery Type"] != "Others"]
     else:

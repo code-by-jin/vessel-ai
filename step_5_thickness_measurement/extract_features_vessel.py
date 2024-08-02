@@ -14,8 +14,8 @@ import cv2
 # Local module imports
 sys.path.append(os.path.abspath('..'))
 from utils.utils_post_process import post_process
-from utils.utils_data import get_classifications, get_segmentations, get_measurements
-from utils.utils_geometry import get_contours
+from utils.utils_data import get_veesel_sheets, get_segmentations, get_measurements
+from utils.utils_geometry import get_contours, get_cnt_idx_w_largest_area
 from utils.utils_constants import (VESSEL_NEPTUNE_PAT_INFO_PATH as VESSEL_PAT_INFO_PATH, 
                                    CLASSIFICATION_PATH, SEGMENTATION_DIR,
                                    MEASUREMENTS_DIR, FEATURES_PATH)
@@ -48,8 +48,14 @@ def extract_base_features(cnt_outer, cnts_middle, cnts_inner, cnts_hys):
     media_area = artery_area - lumen_area - intima_area
     hys_area = sum(cv2.contourArea(contour) for contour in cnts_hys)
 
-    aspect_ratio = calculate_aspect_ratio(cnt_outer)
-    convexity = calculate_convexity(cnt_outer)
+    artery_aspect_ratio = calculate_aspect_ratio(cnt_outer)
+    artery_convexity = calculate_convexity(cnt_outer)
+    if len(cnts_middle) > 0:
+        idx = get_cnt_idx_w_largest_area(cnts_middle)
+        intima_aspect_ratio = calculate_aspect_ratio(cnts_middle[idx])
+        intima_convexity = calculate_convexity(cnts_middle[idx])
+    else:
+        intima_aspect_ratio, intima_convexity = None, None
 
     base_features = {
         'Artery Area': artery_area,
@@ -58,8 +64,10 @@ def extract_base_features(cnt_outer, cnts_middle, cnts_inner, cnts_hys):
         'Intima Area Ratio': intima_area/artery_area,
         'Lumen Area Ratio': lumen_area/artery_area,
         'Hyalinosis Area Ratio': hys_area/artery_area,
-        'Aspect Ratio': aspect_ratio,
-        'Convexity': convexity
+        'Artery Aspect Ratio': artery_aspect_ratio,
+        'Artery Convexity': artery_convexity,
+        'Intima Aspect Ratio': intima_aspect_ratio, 
+        'Intima Convexity': intima_convexity
     }
     return base_features
 
@@ -133,12 +141,13 @@ def main():
                 f"{len(available_sheetnames)} left for analysis.")
     
     excel_writer = pd.ExcelWriter(FEATURES_PATH.replace(".xlsx", f"{suffix}.xlsx"), engine='xlsxwriter')
+    collected_features = []
 
     for i, slide_filename in enumerate(pat_df["WSI_Selected"]):
         logging.info(f"Processing: {i+1}/{len(pat_df)}: {slide_filename}")
         slide_basename = os.path.splitext(slide_filename)[0]
 
-        classifications = get_classifications(CLASSIFICATION_PATH, slide_basename, available_sheetnames, remove_others=False)
+        classifications = get_veesel_sheets(CLASSIFICATION_PATH, slide_basename, available_sheetnames, remove_others=False)
         if classifications.empty:
             continue  # Skip to if no relevant data
 
@@ -159,7 +168,10 @@ def main():
             column_len = max(features[col].astype(str).apply(len).max(), len(col)) + 2  # Adding a little extra space
             worksheet.set_column(i, i, column_len)
 
+        collected_features.append(features)
     excel_writer.close()
+    collected_features = pd.concat(collected_features, ignore_index=True)
+    collected_features.to_csv(FEATURES_PATH.replace(".xlsx", f"{suffix}.csv"), index=False)
 
     end_time = time.time()
     logging.info(f"All slides processed and features extracted in {(end_time - start_time)/60:.2f} minutes.")

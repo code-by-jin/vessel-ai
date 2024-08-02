@@ -4,6 +4,17 @@ import cv2
 import logging
 
 
+def get_cnt_idx_w_largest_area(cnts):
+    max_area = 0
+    max_area_idx = 0
+    for i in range(len(cnts)):
+        curr_area = cv2.contourArea(cnts[i])
+        if curr_area > max_area:
+            max_area = curr_area
+            max_area_idx = i
+    return max_area_idx
+
+
 def adjust_coordinates(cnt, offset):
     """
     Adjust contours coordinates by a given offset.
