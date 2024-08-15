@@ -19,19 +19,22 @@ def vis_angle_discarded(vis, start_pt, insec_mid, path_to_save):
     draw_text(vis, "discard", (10, 27))
     save_img_helper(vis, path_to_save)
 
-def vis_angle_measurement(vis, start_pt, 
-                          insec_inner, insec_mid, insec_outer, 
-                          insec_mid_bef, insec_mid_aft, 
-                          dist_inner, dist_outer, path_to_save):
-    draw_line(vis, start_pt, insec_mid, (255, 255, 255))
-    # draw_line(vis, start_pt, insec_mid_bef, (128, 128, 128))
-    # draw_line(vis, start_pt, insec_mid_aft, (128, 128, 128))
-    draw_line(vis, insec_inner, insec_mid, (255, 0, 255))
-    draw_line(vis, insec_outer, insec_mid, (0, 255, 255))
+def vis_angle_measurement(vis, discard, start_pt, 
+                          insec_mid, insec_inner=None, insec_outer=None):
+                        #   insec_mid_bef, insec_mid_aft, 
+                        #   dist_inner, dist_outer, path_to_save):
+    if discard:
+        draw_line(vis, start_pt, insec_mid, (128, 128, 128))
+    else:
+        draw_line(vis, start_pt, insec_mid, (255, 255, 255))
+        # draw_line(vis, start_pt, insec_mid_bef, (128, 128, 128))
+        # draw_line(vis, start_pt, insec_mid_aft, (128, 128, 128))
+        draw_line(vis, insec_inner, insec_mid, (255, 0, 255))
+        draw_line(vis, insec_outer, insec_mid, (0, 255, 255))
 
-    # draw_text(vis, "intima: " + str(format(dist_inner, ".1f")), (10, 27), color=(255, 0, 255))
-    # draw_text(vis, "media: " + str(format(dist_outer, ".1f")), (10, 54), color=(0, 255, 255))
-    # save_img_helper(vis, path_to_save)
+        # draw_text(vis, "intima: " + str(format(dist_inner, ".1f")), (10, 27), color=(255, 0, 255))
+        # draw_text(vis, "media: " + str(format(dist_outer, ".1f")), (10, 54), color=(0, 255, 255))
+        # save_img_helper(vis, path_to_save)
     
 def vis_angle_missing(vis, start_pt, insec_mid):
     draw_line(vis, start_pt, insec_mid, (255, 255, 255))

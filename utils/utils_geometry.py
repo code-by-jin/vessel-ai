@@ -198,7 +198,9 @@ def offset_contours(contours, offset):
     return [(contour - np.array([offset])).astype(np.int32).squeeze() for contour in contours]
 
 
-def get_contours(segmentations, slide_basename, image_name, bbox_x, bbox_y, bbox_width, bbox_height):
+def get_contours(segmentations, img_name, bbox):
+
+    bbox_x, bbox_y, bbox_width, bbox_height = bbox
     # Retrieve outer contours matching specific bounds conditions
     outer_contours = get_contours_by_classification(
         segmentations,
@@ -209,7 +211,7 @@ def get_contours(segmentations, slide_basename, image_name, bbox_x, bbox_y, bbox
     )
 
     if len(outer_contours) != 1:
-        raise Exception(f"Expected one outer contour for {slide_basename}, found {len(outer_contours)}.")
+        raise Exception(f"Expected one outer contour for {img_name}, found {len(outer_contours)}.")
 
     outer_contour = outer_contours[0]
     middle_contours = get_contours_by_classification(

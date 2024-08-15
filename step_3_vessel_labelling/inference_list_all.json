@@ -1,0 +1,3502 @@
+[
+    {
+        "file_name": "0_957_A_0052826.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 12432,
+            "y": 3792,
+            "width": 7296,
+            "height": 14640
+        }
+    },
+    {
+        "file_name": "0_957_A_0052826.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 2672,
+            "y": 2256,
+            "width": 10192,
+            "height": 21504
+        }
+    },
+    {
+        "file_name": "10-26609-027-002 TRI-3.svs",
+        "type": "WSI",
+        "region": {
+            "x": 8963,
+            "y": 0,
+            "width": 11636,
+            "height": 9873
+        }
+    },
+    {
+        "file_name": "10-26609-027-002 TRI-3.svs",
+        "type": "WSI",
+        "region": {
+            "x": 5186,
+            "y": 17475,
+            "width": 17143,
+            "height": 7265
+        }
+    },
+    {
+        "file_name": "10-26609-027-002 TRI-3.svs",
+        "type": "WSI",
+        "region": {
+            "x": 784,
+            "y": 30085,
+            "width": 33565,
+            "height": 10705
+        }
+    },
+    {
+        "file_name": "10-26609-027-501-TRI-3.svs",
+        "type": "WSI",
+        "region": {
+            "x": 432,
+            "y": 2833,
+            "width": 33373,
+            "height": 21976
+        }
+    },
+    {
+        "file_name": "10_26609_000_002_L2_TRI.svs",
+        "type": "WSI",
+        "region": {
+            "x": 80563,
+            "y": 0,
+            "width": 31463,
+            "height": 34830
+        }
+    },
+    {
+        "file_name": "10_26609_025_502 L5 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 4384,
+            "y": 8960,
+            "width": 11776,
+            "height": 41888
+        }
+    },
+    {
+        "file_name": "10_26609_025_502 L5 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 17728,
+            "y": 8128,
+            "width": 6112,
+            "height": 6784
+        }
+    },
+    {
+        "file_name": "10_26609_025_502 L5 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 16896,
+            "y": 20512,
+            "width": 13984,
+            "height": 28416
+        }
+    },
+    {
+        "file_name": "11_26609_000_009_L2_TRI.svs",
+        "type": "WSI",
+        "region": {
+            "x": 87205,
+            "y": 0,
+            "width": 43346,
+            "height": 50539
+        }
+    },
+    {
+        "file_name": "11_26609_001_004 L7 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 170432,
+            "y": 15488,
+            "width": 19072,
+            "height": 30592
+        }
+    },
+    {
+        "file_name": "11_26609_009_014 L10 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 53824,
+            "y": 4992,
+            "width": 25504,
+            "height": 25568
+        }
+    },
+    {
+        "file_name": "11_26609_009_014 L10 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 47968,
+            "y": 5504,
+            "width": 6016,
+            "height": 25088
+        }
+    },
+    {
+        "file_name": "11_26609_020_001 A1_5 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 7104,
+            "y": 6080,
+            "width": 26848,
+            "height": 36000
+        }
+    },
+    {
+        "file_name": "11_26609_020_003 A1_5 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 6240,
+            "y": 5888,
+            "width": 32864,
+            "height": 66624
+        }
+    },
+    {
+        "file_name": "11_26609_000_013_L02 TRI.svs",
+        "type": "WSI",
+        "region": {
+            "x": 4051,
+            "y": 17349,
+            "width": 19255,
+            "height": 13913
+        }
+    },
+    {
+        "file_name": "11_26609_009_005 L10 TRI.svs",
+        "type": "WSI",
+        "region": {
+            "x": 7770,
+            "y": 15246,
+            "width": 17958,
+            "height": 32522
+        }
+    },
+    {
+        "file_name": "11_26609_009_008 L10 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 7692,
+            "y": 11131,
+            "width": 43184,
+            "height": 43184
+        }
+    },
+    {
+        "file_name": "11_26609_020_006 A15 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 16827,
+            "y": 7793,
+            "width": 49735,
+            "height": 33398
+        }
+    },
+    {
+        "file_name": "11_26609_022_009 L6 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 3576,
+            "y": 14260,
+            "width": 20192,
+            "height": 24526
+        }
+    },
+    {
+        "file_name": "11_26609_023_512 L4 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 10288,
+            "y": 6074,
+            "width": 31289,
+            "height": 23322
+        }
+    },
+    {
+        "file_name": "11_26609_027_005 L03 TRI.svs",
+        "type": "WSI",
+        "region": {
+            "x": 6021,
+            "y": 11960,
+            "width": 27169,
+            "height": 12281
+        }
+    },
+    {
+        "file_name": "11_26609_027_006 L02 TRI.svs",
+        "type": "WSI",
+        "region": {
+            "x": 5957,
+            "y": -265,
+            "width": 16374,
+            "height": 10855
+        }
+    },
+    {
+        "file_name": "11_26609_098_003_LM.Tri.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 82294,
+            "y": 5545,
+            "width": 21496,
+            "height": 16661
+        }
+    },
+    {
+        "file_name": "11_26609_098_004_L11 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 62156,
+            "y": 18154,
+            "width": 17934,
+            "height": 13721
+        }
+    },
+    {
+        "file_name": "11_26609_098_005_L4 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 75424,
+            "y": 6650,
+            "width": 12468,
+            "height": 16249
+        }
+    },
+    {
+        "file_name": "12_26609_001_501 LUNK TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 3006,
+            "y": 3289,
+            "width": 16758,
+            "height": 12460
+        }
+    },
+    {
+        "file_name": "12_26609_020_018 L05 A1 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 6985,
+            "y": 9116,
+            "width": 22237,
+            "height": 29658
+        }
+    },
+    {
+        "file_name": "12_26609_021_507 L03 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 148779,
+            "y": 23251,
+            "width": 3452,
+            "height": 3818
+        }
+    },
+    {
+        "file_name": "12_26609_022_015 L2 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 3760,
+            "y": 6150,
+            "width": 16690,
+            "height": 11095
+        }
+    },
+    {
+        "file_name": "12_26609_022_018 L08 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 48677,
+            "y": 9334,
+            "width": 10460,
+            "height": 12226
+        }
+    },
+    {
+        "file_name": "16_26609_022_044 L06 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 58568,
+            "y": 4363,
+            "width": 15312,
+            "height": 19407
+        }
+    },
+    {
+        "file_name": "12_26609_030_008 L03 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 1216,
+            "y": 2528,
+            "width": 44384,
+            "height": 41888
+        }
+    },
+    {
+        "file_name": "12_26609_031_004 L03 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 5120,
+            "y": 62048,
+            "width": 38528,
+            "height": 28416
+        }
+    },
+    {
+        "file_name": "12_26609_031_005 L03 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 8928,
+            "y": 49632,
+            "width": 42656,
+            "height": 44576
+        }
+    },
+    {
+        "file_name": "12_26609_032_001 L05 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 5856,
+            "y": 5568,
+            "width": 55072,
+            "height": 26848
+        }
+    },
+    {
+        "file_name": "12_26609_032_003 L07 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 5040,
+            "y": 1488,
+            "width": 24816,
+            "height": 27904
+        }
+    },
+    {
+        "file_name": "12_26609_033_503 L UNK TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 5600,
+            "y": 5984,
+            "width": 44704,
+            "height": 51904
+        }
+    },
+    {
+        "file_name": "12_26609_033_510 LUNK TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 7296,
+            "y": 11392,
+            "width": 48448,
+            "height": 20224
+        }
+    },
+    {
+        "file_name": "12_26609_097_020 L12 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 288,
+            "y": 2112,
+            "width": 35360,
+            "height": 57984
+        }
+    },
+    {
+        "file_name": "12_26609_097_030 L12 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 5184,
+            "y": 4864,
+            "width": 47552,
+            "height": 79744
+        }
+    },
+    {
+        "file_name": "12_26609_097_030 L12 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 106112,
+            "y": 21120,
+            "width": 73984,
+            "height": 43200
+        }
+    },
+    {
+        "file_name": "12_26609_098_006 L11 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 104832,
+            "y": 17856,
+            "width": 16256,
+            "height": 10944
+        }
+    },
+    {
+        "file_name": "12_26609_098_006 L11 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 92096,
+            "y": 36480,
+            "width": 39168,
+            "height": 18624
+        }
+    },
+    {
+        "file_name": "12_26609_098_006 L11 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 95168,
+            "y": 55360,
+            "width": 31168,
+            "height": 12096
+        }
+    },
+    {
+        "file_name": "13_26609_029_103 LUNK TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 512,
+            "y": 8256,
+            "width": 36032,
+            "height": 48640
+        }
+    },
+    {
+        "file_name": "13_26609_029_103 LUNK TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 143360,
+            "y": 12800,
+            "width": 23680,
+            "height": 57792
+        }
+    },
+    {
+        "file_name": "13_26609_031_007 L03 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 10944,
+            "y": 46432,
+            "width": 28576,
+            "height": 46848
+        }
+    },
+    {
+        "file_name": "13_26609_031_016 LUNK1 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 12448,
+            "y": 44576,
+            "width": 20416,
+            "height": 35392
+        }
+    },
+    {
+        "file_name": "13_26609_032_007 L10 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 2656,
+            "y": 1568,
+            "width": 38272,
+            "height": 30240
+        }
+    },
+    {
+        "file_name": "13_26609_032_008 L09 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 2048,
+            "y": 3808,
+            "width": 34080,
+            "height": 38464
+        }
+    },
+    {
+        "file_name": "13_26609_033_521 LUNK5 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 11424,
+            "y": 6576,
+            "width": 5248,
+            "height": 5152
+        }
+    },
+    {
+        "file_name": "13_26609_033_521 LUNK5 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 6160,
+            "y": 17376,
+            "width": 12896,
+            "height": 23648
+        }
+    },
+    {
+        "file_name": "13_26609_033_521 LUNK5 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 1792,
+            "y": 37264,
+            "width": 2528,
+            "height": 3616
+        }
+    },
+    {
+        "file_name": "13_26609_040_001 L03 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 71168,
+            "y": 0,
+            "width": 39936,
+            "height": 40416
+        }
+    },
+    {
+        "file_name": "13_26609_095_502 L04 TRI.svs",
+        "type": "WSI",
+        "region": {
+            "x": 45512,
+            "y": 27394,
+            "width": 22131,
+            "height": 26130
+        }
+    },
+    {
+        "file_name": "13_36609_033_524 L08 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 16288,
+            "y": 2624,
+            "width": 18368,
+            "height": 17440
+        }
+    },
+    {
+        "file_name": "13_36609_033_524 L08 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 3168,
+            "y": 12704,
+            "width": 10048,
+            "height": 17536
+        }
+    },
+    {
+        "file_name": "13_36609_033_524 L08 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 21728,
+            "y": 19648,
+            "width": 12032,
+            "height": 23360
+        }
+    },
+    {
+        "file_name": "14_26609_022_033 L02 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 41344,
+            "y": 6336,
+            "width": 12768,
+            "height": 37024
+        }
+    },
+    {
+        "file_name": "12_26609_027_013_L03_TRI.svs",
+        "type": "WSI",
+        "region": {
+            "x": 0,
+            "y": 0,
+            "width": 45239,
+            "height": 48875
+        }
+    },
+    {
+        "file_name": "12_26609_027_017 L03 TRI.svs",
+        "type": "WSI",
+        "region": {
+            "x": 1808,
+            "y": 864,
+            "width": 18994,
+            "height": 23820
+        }
+    },
+    {
+        "file_name": "12_26609_027_018 L03 TRI.svs",
+        "type": "WSI",
+        "region": {
+            "x": 0,
+            "y": 0,
+            "width": 34981,
+            "height": 44870
+        }
+    },
+    {
+        "file_name": "12_26609_027_018 L03 TRI.svs",
+        "type": "WSI",
+        "region": {
+            "x": 70859,
+            "y": 16514,
+            "width": 22627,
+            "height": 27523
+        }
+    },
+    {
+        "file_name": "12_26609_027_512 L03 TRI.svs",
+        "type": "WSI",
+        "region": {
+            "x": 11362,
+            "y": 1664,
+            "width": 7777,
+            "height": 6240
+        }
+    },
+    {
+        "file_name": "12_26609_027_512 L03 TRI.svs",
+        "type": "WSI",
+        "region": {
+            "x": 4048,
+            "y": 7953,
+            "width": 15699,
+            "height": 7761
+        }
+    },
+    {
+        "file_name": "12_26609_027_512 L03 TRI.svs",
+        "type": "WSI",
+        "region": {
+            "x": 896,
+            "y": 19634,
+            "width": 24485,
+            "height": 5968
+        }
+    },
+    {
+        "file_name": "12_26609_028_010 L5 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 3008,
+            "y": 4416,
+            "width": 21696,
+            "height": 19712
+        }
+    },
+    {
+        "file_name": "12_26609_028_515 L07 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 4320,
+            "y": 18176,
+            "width": 52128,
+            "height": 18656
+        }
+    },
+    {
+        "file_name": "12_26609_028_515 L07 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 21792,
+            "y": 36768,
+            "width": 16096,
+            "height": 10144
+        }
+    },
+    {
+        "file_name": "12_26609_028_519 L07 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 2704,
+            "y": 1568,
+            "width": 53424,
+            "height": 19936
+        }
+    },
+    {
+        "file_name": "12_26609_028_520 L03 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 109760,
+            "y": 8032,
+            "width": 35840,
+            "height": 29952
+        }
+    },
+    {
+        "file_name": "12_26609_029_509 L14 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 64704,
+            "y": 4352,
+            "width": 44608,
+            "height": 83520
+        }
+    },
+    {
+        "file_name": "12_26609_030_005, L13, TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 63392,
+            "y": 7520,
+            "width": 21728,
+            "height": 31136
+        }
+    },
+    {
+        "file_name": "13_26609_029_514 L04 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 69760,
+            "y": 8512,
+            "width": 55680,
+            "height": 63232
+        }
+    },
+    {
+        "file_name": "13_26609_030_010 L05 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 129536,
+            "y": 6304,
+            "width": 7904,
+            "height": 39584
+        }
+    },
+    {
+        "file_name": "13_26609_030_010 L05 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 151232,
+            "y": 15840,
+            "width": 7552,
+            "height": 25120
+        }
+    },
+    {
+        "file_name": "13_26609_030_010 L05 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 140096,
+            "y": 16864,
+            "width": 6880,
+            "height": 23072
+        }
+    },
+    {
+        "file_name": "13_26609_031_006 L03 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 5056,
+            "y": 41856,
+            "width": 29792,
+            "height": 28448
+        }
+    },
+    {
+        "file_name": "13_26609_033_518 L08 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 760,
+            "y": 2800,
+            "width": 14320,
+            "height": 18720
+        }
+    },
+    {
+        "file_name": "13_26609_033_523 L08 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 7200,
+            "y": 5728,
+            "width": 20352,
+            "height": 35424
+        }
+    },
+    {
+        "file_name": "13_26609_033_525 L08 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 11936,
+            "y": 6368,
+            "width": 25408,
+            "height": 6208
+        }
+    },
+    {
+        "file_name": "13_26609_033_525 L08 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 29408,
+            "y": 12064,
+            "width": 7136,
+            "height": 8096
+        }
+    },
+    {
+        "file_name": "13_26609_033_525 L08 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 6944,
+            "y": 15808,
+            "width": 15296,
+            "height": 7424
+        }
+    },
+    {
+        "file_name": "13_26609_033_527 L08 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 93504,
+            "y": 2880,
+            "width": 40320,
+            "height": 30624
+        }
+    },
+    {
+        "file_name": "13_26609_040_007 L03 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 99376,
+            "y": 1504,
+            "width": 37976,
+            "height": 5808
+        }
+    },
+    {
+        "file_name": "13_26609_095_501 L04 TRI.svs",
+        "type": "WSI",
+        "region": {
+            "x": 2224,
+            "y": 37077,
+            "width": 20465,
+            "height": 17762
+        }
+    },
+    {
+        "file_name": "13_26609_033_528 L08 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 87232,
+            "y": 5312,
+            "width": 28640,
+            "height": 35840
+        }
+    },
+    {
+        "file_name": "12_26609_099_005 L10 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 57280,
+            "y": 11264,
+            "width": 28416,
+            "height": 53312
+        }
+    },
+    {
+        "file_name": "12_26609_099_006 L10 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 49504,
+            "y": 2880,
+            "width": 10816,
+            "height": 36704
+        }
+    },
+    {
+        "file_name": "13_266069_040_003 L03 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 94976,
+            "y": 4672,
+            "width": 53376,
+            "height": 61376
+        }
+    },
+    {
+        "file_name": "13_26609_001_013 LUNK1 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 3744,
+            "y": 21248,
+            "width": 28800,
+            "height": 36992
+        }
+    },
+    {
+        "file_name": "13_26609_022_023 L02 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 54224,
+            "y": 6304,
+            "width": 14224,
+            "height": 16976
+        }
+    },
+    {
+        "file_name": "13_26609_022_024 L02 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 5952,
+            "y": 5248,
+            "width": 5760,
+            "height": 17024
+        }
+    },
+    {
+        "file_name": "13_26609_022_024 L02 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 15408,
+            "y": 4240,
+            "width": 4528,
+            "height": 4768
+        }
+    },
+    {
+        "file_name": "13_26609_022_024 L02 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 14080,
+            "y": 13264,
+            "width": 7904,
+            "height": 6784
+        }
+    },
+    {
+        "file_name": "13_26609_022_024 L02 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 25168,
+            "y": 5056,
+            "width": 4016,
+            "height": 14016
+        }
+    },
+    {
+        "file_name": "13_26609_023_519 LUNK TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 171584,
+            "y": 5504,
+            "width": 34400,
+            "height": 33440
+        }
+    },
+    {
+        "file_name": "13_26609_023_520 LUNK TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 89184,
+            "y": 12416,
+            "width": 39808,
+            "height": 35712
+        }
+    },
+    {
+        "file_name": "13_26609_024_025 L05 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 155136,
+            "y": 4352,
+            "width": 16576,
+            "height": 45952
+        }
+    },
+    {
+        "file_name": "13_26609_024_026 L05 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 121824,
+            "y": 7008,
+            "width": 7904,
+            "height": 34432
+        }
+    },
+    {
+        "file_name": "12-26609-027-015 L03 TRI.svs",
+        "type": "WSI",
+        "region": {
+            "x": 0,
+            "y": 0,
+            "width": 34589,
+            "height": 31641
+        }
+    },
+    {
+        "file_name": "12_26609_001_011 LUNK5 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 65120,
+            "y": 8064,
+            "width": 31424,
+            "height": 42784
+        }
+    },
+    {
+        "file_name": "12_26609_001_011 LUNK5 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 51936,
+            "y": 13024,
+            "width": 8896,
+            "height": 13408
+        }
+    },
+    {
+        "file_name": "12_26609_001_502 LUNK TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 2048,
+            "y": 0,
+            "width": 19152,
+            "height": 18688
+        }
+    },
+    {
+        "file_name": "12_26609_020_010 L05 A1 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 4064,
+            "y": 5216,
+            "width": 34272,
+            "height": 29728
+        }
+    },
+    {
+        "file_name": "12_26609_020_012 L05 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 4096,
+            "y": 4320,
+            "width": 49440,
+            "height": 36896
+        }
+    },
+    {
+        "file_name": "12_26609_020_014 L05 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 6496,
+            "y": 5024,
+            "width": 65888,
+            "height": 42464
+        }
+    },
+    {
+        "file_name": "12_26609_020_016 L05 A1 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 1520,
+            "y": 5552,
+            "width": 24096,
+            "height": 42704
+        }
+    },
+    {
+        "file_name": "12_26609_020_019 L24 A1 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 3344,
+            "y": 1424,
+            "width": 37008,
+            "height": 22512
+        }
+    },
+    {
+        "file_name": "12_26609_022_013 L10 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 61728,
+            "y": 12544,
+            "width": 28608,
+            "height": 34624
+        }
+    },
+    {
+        "file_name": "12_26609_022_014 L10 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 58016,
+            "y": 2656,
+            "width": 44128,
+            "height": 54272
+        }
+    },
+    {
+        "file_name": "14_26609_095_504 L04 Masson.svs",
+        "type": "WSI",
+        "region": {
+            "x": 688,
+            "y": 1216,
+            "width": 19106,
+            "height": 11376
+        }
+    },
+    {
+        "file_name": "15_26609_024_045 L05 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 83360,
+            "y": 7168,
+            "width": 8416,
+            "height": 28352
+        }
+    },
+    {
+        "file_name": "15_26609_027_033 L03 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 8416,
+            "y": 22400,
+            "width": 41728,
+            "height": 35904
+        }
+    },
+    {
+        "file_name": "15_26609_027_033 L03 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 3328,
+            "y": 4416,
+            "width": 23808,
+            "height": 19296
+        }
+    },
+    {
+        "file_name": "15_26609_027_524 LUNK TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 1008,
+            "y": 3520,
+            "width": 37456,
+            "height": 27216
+        }
+    },
+    {
+        "file_name": "15_26609_040_028 BX1 L03 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 2752,
+            "y": 4992,
+            "width": 41024,
+            "height": 29760
+        }
+    },
+    {
+        "file_name": "16_26609_021_0517 L04 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 12000,
+            "y": 5280,
+            "width": 31232,
+            "height": 29728
+        }
+    },
+    {
+        "file_name": "16_26609_022_045 L02 TRI.svs",
+        "type": "WSI",
+        "region": {
+            "x": 33952,
+            "y": 1969,
+            "width": 5264,
+            "height": 21771
+        }
+    },
+    {
+        "file_name": "16_26609_040_030 L03 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 4192,
+            "y": 5888,
+            "width": 16928,
+            "height": 43744
+        }
+    },
+    {
+        "file_name": "17_26609_024_504 L05 TRI.svs",
+        "type": "WSI",
+        "region": {
+            "x": 72960,
+            "y": 4592,
+            "width": 17968,
+            "height": 13601
+        }
+    },
+    {
+        "file_name": "17_26609_035_514 LA1-3 TRI.svs",
+        "type": "WSI",
+        "region": {
+            "x": 8931,
+            "y": 11367,
+            "width": 58772,
+            "height": 30580
+        }
+    },
+    {
+        "file_name": "17_26609_035_514 LA1-3 TRI.svs",
+        "type": "WSI",
+        "region": {
+            "x": 0,
+            "y": 0,
+            "width": 9059,
+            "height": 11527
+        }
+    },
+    {
+        "file_name": "14_26609_024_038 L05 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 86720,
+            "y": 10464,
+            "width": 12480,
+            "height": 39552
+        }
+    },
+    {
+        "file_name": "14_26609_024_039 L05 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 62496,
+            "y": 10240,
+            "width": 7360,
+            "height": 47840
+        }
+    },
+    {
+        "file_name": "14_26609_024_040 L05 TRICH.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 96672,
+            "y": 5280,
+            "width": 18944,
+            "height": 38432
+        }
+    },
+    {
+        "file_name": "14_26609_025_517 L06 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 106560,
+            "y": 9600,
+            "width": 69120,
+            "height": 53376
+        }
+    },
+    {
+        "file_name": "14_26609_025_519 L06 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 17856,
+            "y": 6080,
+            "width": 24320,
+            "height": 9984
+        }
+    },
+    {
+        "file_name": "14_26609_025_519 L06 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 13920,
+            "y": 17824,
+            "width": 30688,
+            "height": 6112
+        }
+    },
+    {
+        "file_name": "14_26609_025_519 L06 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 6464,
+            "y": 25696,
+            "width": 43520,
+            "height": 5664
+        }
+    },
+    {
+        "file_name": "14_26609_025_520 L06 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 5312,
+            "y": 4160,
+            "width": 36928,
+            "height": 46464
+        }
+    },
+    {
+        "file_name": "14_26609_026_023 L08 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 0,
+            "y": 19040,
+            "width": 37600,
+            "height": 40992
+        }
+    },
+    {
+        "file_name": "14_26609_026_023 L08 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 110624,
+            "y": 0,
+            "width": 66144,
+            "height": 29824
+        }
+    },
+    {
+        "file_name": "14_26609_026_025 L08 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 4480,
+            "y": 14656,
+            "width": 28416,
+            "height": 41152
+        }
+    },
+    {
+        "file_name": "14_26609_026_025 L08 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 122720,
+            "y": 6880,
+            "width": 26784,
+            "height": 37920
+        }
+    },
+    {
+        "file_name": "14_26609_031_015 L03 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 0,
+            "y": 41344,
+            "width": 37664,
+            "height": 31968
+        }
+    },
+    {
+        "file_name": "14_26609_033_529 L08 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 85312,
+            "y": 2368,
+            "width": 37696,
+            "height": 42464
+        }
+    },
+    {
+        "file_name": "13_26609_025_514 LUNK TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 0,
+            "y": 0,
+            "width": 47616,
+            "height": 36608
+        }
+    },
+    {
+        "file_name": "13_26609_025_516 L06 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 52608,
+            "y": 10880,
+            "width": 30720,
+            "height": 10304
+        }
+    },
+    {
+        "file_name": "13_26609_025_516 L06 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 54624,
+            "y": 29792,
+            "width": 16384,
+            "height": 8000
+        }
+    },
+    {
+        "file_name": "13_26609_025_516 L06 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 68224,
+            "y": 23552,
+            "width": 5632,
+            "height": 4832
+        }
+    },
+    {
+        "file_name": "13_26609_026_017 L08 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 2592,
+            "y": 4576,
+            "width": 39008,
+            "height": 39872
+        }
+    },
+    {
+        "file_name": "13_26609_026_017 L08 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 106784,
+            "y": 800,
+            "width": 32064,
+            "height": 25856
+        }
+    },
+    {
+        "file_name": "13_26609_026_021 L10 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 4288,
+            "y": 4544,
+            "width": 55136,
+            "height": 31488
+        }
+    },
+    {
+        "file_name": "13_26609_026_021 L10 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 46592,
+            "y": 43040,
+            "width": 7840,
+            "height": 8640
+        }
+    },
+    {
+        "file_name": "13_26609_027_020 L03 TRI.svs",
+        "type": "WSI",
+        "region": {
+            "x": 2208,
+            "y": 576,
+            "width": 43337,
+            "height": 50511
+        }
+    },
+    {
+        "file_name": "13_26609_027_020 L03 TRI.svs",
+        "type": "WSI",
+        "region": {
+            "x": 45065,
+            "y": 4641,
+            "width": 17731,
+            "height": 6626
+        }
+    },
+    {
+        "file_name": "13_26609_027_020 L03 TRI.svs",
+        "type": "WSI",
+        "region": {
+            "x": 75312,
+            "y": 23463,
+            "width": 25893,
+            "height": 29833
+        }
+    },
+    {
+        "file_name": "13_26609_027_516_L12_TRI.svs",
+        "type": "WSI",
+        "region": {
+            "x": 0,
+            "y": 0,
+            "width": 44420,
+            "height": 64181
+        }
+    },
+    {
+        "file_name": "13_26609_027_516_L12_TRI.svs",
+        "type": "WSI",
+        "region": {
+            "x": 92840,
+            "y": 23335,
+            "width": 17633,
+            "height": 6882
+        }
+    },
+    {
+        "file_name": "13_26609_027_516_L12_TRI.svs",
+        "type": "WSI",
+        "region": {
+            "x": 95977,
+            "y": 33450,
+            "width": 28930,
+            "height": 27496
+        }
+    },
+    {
+        "file_name": "13_26609_027_517_L3_TRI.svs",
+        "type": "WSI",
+        "region": {
+            "x": 0,
+            "y": 96,
+            "width": 44747,
+            "height": 47018
+        }
+    },
+    {
+        "file_name": "13_26609_027_517_L3_TRI.svs",
+        "type": "WSI",
+        "region": {
+            "x": 76563,
+            "y": 3008,
+            "width": 31336,
+            "height": 26853
+        }
+    },
+    {
+        "file_name": "13_26609_028_523 L02 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 124912,
+            "y": 3296,
+            "width": 14544,
+            "height": 5328
+        }
+    },
+    {
+        "file_name": "13_26609_028_523 L02 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 112816,
+            "y": 14512,
+            "width": 35872,
+            "height": 7040
+        }
+    },
+    {
+        "file_name": "13_26609_028_526 L02 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 65984,
+            "y": 4224,
+            "width": 13408,
+            "height": 7520
+        }
+    },
+    {
+        "file_name": "13_26609_028_526 L02 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 80576,
+            "y": 10720,
+            "width": 10016,
+            "height": 25792
+        }
+    },
+    {
+        "file_name": "12_26609_027_511 L03 TRI.svs",
+        "type": "WSI",
+        "region": {
+            "x": 0,
+            "y": 0,
+            "width": 25878,
+            "height": 22115
+        }
+    },
+    {
+        "file_name": "12_26609_027_513_L3_TRI.svs",
+        "type": "WSI",
+        "region": {
+            "x": 1920,
+            "y": 0,
+            "width": 49233,
+            "height": 41846
+        }
+    },
+    {
+        "file_name": "12_26609_027_513_L3_TRI.svs",
+        "type": "WSI",
+        "region": {
+            "x": 96290,
+            "y": 0,
+            "width": 41105,
+            "height": 43414
+        }
+    },
+    {
+        "file_name": "12_26609_028_513 LUNK TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 106816,
+            "y": 42624,
+            "width": 24896,
+            "height": 30208
+        }
+    },
+    {
+        "file_name": "12_26609_029_507 L14 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 57504,
+            "y": 5248,
+            "width": 43136,
+            "height": 53664
+        }
+    },
+    {
+        "file_name": "12_26609_029_508 L04 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 60032,
+            "y": 6400,
+            "width": 32640,
+            "height": 53760
+        }
+    },
+    {
+        "file_name": "12_26609_029_511 L14 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 58688,
+            "y": 14272,
+            "width": 36928,
+            "height": 69632
+        }
+    },
+    {
+        "file_name": "12_26609_032_002 L09 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 2496,
+            "y": 1984,
+            "width": 36128,
+            "height": 33440
+        }
+    },
+    {
+        "file_name": "12_26609_032_002 L09 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 37312,
+            "y": 0,
+            "width": 4576,
+            "height": 2560
+        }
+    },
+    {
+        "file_name": "12_26609_033_507 LUNK TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 7056,
+            "y": 3664,
+            "width": 41664,
+            "height": 20704
+        }
+    },
+    {
+        "file_name": "12_26609_033_512 LUNK TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 4400,
+            "y": 7552,
+            "width": 34624,
+            "height": 6144
+        }
+    },
+    {
+        "file_name": "12_26609_033_514 LUNK TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 2912,
+            "y": 1600,
+            "width": 34144,
+            "height": 27520
+        }
+    },
+    {
+        "file_name": "12_26609_033_514 LUNK TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 19520,
+            "y": 32032,
+            "width": 8736,
+            "height": 6688
+        }
+    },
+    {
+        "file_name": "0_2439_A_0056550.svs",
+        "type": "WSI",
+        "region": {
+            "x": 1760,
+            "y": 3808,
+            "width": 47819,
+            "height": 49770
+        }
+    },
+    {
+        "file_name": "0_2463_A_0056563.svs",
+        "type": "WSI",
+        "region": {
+            "x": 91508,
+            "y": 3488,
+            "width": 59027,
+            "height": 44225
+        }
+    },
+    {
+        "file_name": "0_2852_A_0052807.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 75360,
+            "y": 9632,
+            "width": 43808,
+            "height": 32128
+        }
+    },
+    {
+        "file_name": "0_2854_A_0052814.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 61888,
+            "y": 4800,
+            "width": 26880,
+            "height": 41312
+        }
+    },
+    {
+        "file_name": "0_2856_A_0052824.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 59264,
+            "y": 5152,
+            "width": 7840,
+            "height": 21792
+        }
+    },
+    {
+        "file_name": "0_2856_A_0052824.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 68992,
+            "y": 4896,
+            "width": 12096,
+            "height": 25056
+        }
+    },
+    {
+        "file_name": "0_2862_A_0053442.svs",
+        "type": "WSI",
+        "region": {
+            "x": 53673,
+            "y": 3617,
+            "width": 35750,
+            "height": 28200
+        }
+    },
+    {
+        "file_name": "0_2868_A_0049982.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 2944,
+            "y": 0,
+            "width": 29248,
+            "height": 52480
+        }
+    },
+    {
+        "file_name": "0_2878_A_0048364.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 4704,
+            "y": 5360,
+            "width": 15504,
+            "height": 18528
+        }
+    },
+    {
+        "file_name": "0_2884_A_0053347.svs",
+        "type": "WSI",
+        "region": {
+            "x": 2048,
+            "y": 3008,
+            "width": 16176,
+            "height": 24917
+        }
+    },
+    {
+        "file_name": "0_2886_A_0053457.svs",
+        "type": "WSI",
+        "region": {
+            "x": 14182,
+            "y": 2240,
+            "width": 11172,
+            "height": 11266
+        }
+    },
+    {
+        "file_name": "0_2886_A_0053457.svs",
+        "type": "WSI",
+        "region": {
+            "x": 1024,
+            "y": 19780,
+            "width": 31502,
+            "height": 46571
+        }
+    },
+    {
+        "file_name": "0_2902_A_0056706.svs",
+        "type": "WSI",
+        "region": {
+            "x": 60885,
+            "y": 8948,
+            "width": 16417,
+            "height": 10132
+        }
+    },
+    {
+        "file_name": "0_2906_A_0049279.svs",
+        "type": "WSI",
+        "region": {
+            "x": 81552,
+            "y": 7746,
+            "width": 17408,
+            "height": 14741
+        }
+    },
+    {
+        "file_name": "0_2914_A_0053236.svs",
+        "type": "WSI",
+        "region": {
+            "x": 480,
+            "y": 2704,
+            "width": 23568,
+            "height": 7633
+        }
+    },
+    {
+        "file_name": "0_2914_A_0053236.svs",
+        "type": "WSI",
+        "region": {
+            "x": 3520,
+            "y": 14066,
+            "width": 22560,
+            "height": 7361
+        }
+    },
+    {
+        "file_name": "0_2914_A_0053236.svs",
+        "type": "WSI",
+        "region": {
+            "x": 24272,
+            "y": 20130,
+            "width": 7552,
+            "height": 4768
+        }
+    },
+    {
+        "file_name": "0_2914_A_0053236.svs",
+        "type": "WSI",
+        "region": {
+            "x": 7664,
+            "y": 25459,
+            "width": 15568,
+            "height": 6032
+        }
+    },
+    {
+        "file_name": "0_2928_A_0049329.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 56832,
+            "y": 11744,
+            "width": 9600,
+            "height": 11872
+        }
+    },
+    {
+        "file_name": "0_2928_A_0049329.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 66816,
+            "y": 8192,
+            "width": 17440,
+            "height": 24320
+        }
+    },
+    {
+        "file_name": "0_2936_A_0049817.svs",
+        "type": "WSI",
+        "region": {
+            "x": 1824,
+            "y": 2864,
+            "width": 21110,
+            "height": 47648
+        }
+    },
+    {
+        "file_name": "0_2948_A_0049536.svs",
+        "type": "WSI",
+        "region": {
+            "x": 74509,
+            "y": 2880,
+            "width": 14722,
+            "height": 38602
+        }
+    },
+    {
+        "file_name": "0_784_A_0047801.svs",
+        "type": "WSI",
+        "region": {
+            "x": 2448,
+            "y": 13216,
+            "width": 27185,
+            "height": 16352
+        }
+    },
+    {
+        "file_name": "0_796_A_0047806.svs",
+        "type": "WSI",
+        "region": {
+            "x": 91252,
+            "y": 2368,
+            "width": 23685,
+            "height": 41507
+        }
+    },
+    {
+        "file_name": "0_800_A_0047811.svs",
+        "type": "WSI",
+        "region": {
+            "x": 68196,
+            "y": 2784,
+            "width": 12224,
+            "height": 18980
+        }
+    },
+    {
+        "file_name": "0_800_A_0047811.svs",
+        "type": "WSI",
+        "region": {
+            "x": 76292,
+            "y": 22693,
+            "width": 10848,
+            "height": 39400
+        }
+    },
+    {
+        "file_name": "0_954_A_0056426.svs",
+        "type": "WSI",
+        "region": {
+            "x": 10144,
+            "y": 640,
+            "width": 27616,
+            "height": 8595
+        }
+    },
+    {
+        "file_name": "0_954_A_0056426.svs",
+        "type": "WSI",
+        "region": {
+            "x": 13472,
+            "y": 9315,
+            "width": 23024,
+            "height": 8771
+        }
+    },
+    {
+        "file_name": "0_954_A_0056426.svs",
+        "type": "WSI",
+        "region": {
+            "x": 1232,
+            "y": 18758,
+            "width": 51888,
+            "height": 9987
+        }
+    },
+    {
+        "file_name": "11_26609_027_509_L3_TRI.svs",
+        "type": "WSI",
+        "region": {
+            "x": 0,
+            "y": 0,
+            "width": 29785,
+            "height": 13316
+        }
+    },
+    {
+        "file_name": "11_26609_028_504 L unknown TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 56208,
+            "y": 5856,
+            "width": 17712,
+            "height": 17920
+        }
+    },
+    {
+        "file_name": "11_26609_028_507 l6 tr.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 91392,
+            "y": 4640,
+            "width": 13984,
+            "height": 46560
+        }
+    },
+    {
+        "file_name": "11_26609_028_507 l6 tr.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 72256,
+            "y": 7424,
+            "width": 8576,
+            "height": 9024
+        }
+    },
+    {
+        "file_name": "11_26609_028_508 L15 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 102144,
+            "y": 5248,
+            "width": 13696,
+            "height": 52544
+        }
+    },
+    {
+        "file_name": "11_26609_029_506 L14 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 68736,
+            "y": 14336,
+            "width": 11008,
+            "height": 13600
+        }
+    },
+    {
+        "file_name": "11_26609_029_506 L14 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 67840,
+            "y": 7392,
+            "width": 5856,
+            "height": 7392
+        }
+    },
+    {
+        "file_name": "11_26609_029_506 L14 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 59776,
+            "y": 17600,
+            "width": 7104,
+            "height": 15488
+        }
+    },
+    {
+        "file_name": "12_26609_020_013 L05 A1 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 6272,
+            "y": 5888,
+            "width": 26976,
+            "height": 24992
+        }
+    },
+    {
+        "file_name": "12_26609_024_502 L5 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 114816,
+            "y": 3872,
+            "width": 38784,
+            "height": 47456
+        }
+    },
+    {
+        "file_name": "12_26609_025_510 L06 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 82080,
+            "y": 9696,
+            "width": 50368,
+            "height": 39360
+        }
+    },
+    {
+        "file_name": "12_26609_025_511 L06 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 37824,
+            "y": 5024,
+            "width": 28160,
+            "height": 12736
+        }
+    },
+    {
+        "file_name": "12_26609_025_511 L06 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 13184,
+            "y": 6976,
+            "width": 11072,
+            "height": 5120
+        }
+    },
+    {
+        "file_name": "12_26609_025_511 L06 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 4960,
+            "y": 17760,
+            "width": 65376,
+            "height": 14816
+        }
+    },
+    {
+        "file_name": "12_26609_026_504 L09 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 108896,
+            "y": 17120,
+            "width": 37920,
+            "height": 15712
+        }
+    },
+    {
+        "file_name": "0_1655_A_0047836.svs",
+        "type": "WSI",
+        "region": {
+            "x": 102304,
+            "y": 1792,
+            "width": 30720,
+            "height": 25952
+        }
+    },
+    {
+        "file_name": "0_1655_A_0047836.svs",
+        "type": "WSI",
+        "region": {
+            "x": 0,
+            "y": 23696,
+            "width": 38208,
+            "height": 38321
+        }
+    },
+    {
+        "file_name": "0_1681_A_0056256.svs",
+        "type": "WSI",
+        "region": {
+            "x": 78545,
+            "y": 2945,
+            "width": 31014,
+            "height": 36369
+        }
+    },
+    {
+        "file_name": "0_1695_A_0056737.svs",
+        "type": "WSI",
+        "region": {
+            "x": 82821,
+            "y": 3392,
+            "width": 30018,
+            "height": 35432
+        }
+    },
+    {
+        "file_name": "0_1701_A_0053474.svs",
+        "type": "WSI",
+        "region": {
+            "x": 63488,
+            "y": 3073,
+            "width": 20736,
+            "height": 28108
+        }
+    },
+    {
+        "file_name": "0_1708_A_0053639.svs",
+        "type": "WSI",
+        "region": {
+            "x": 85195,
+            "y": 5856,
+            "width": 6880,
+            "height": 6528
+        }
+    },
+    {
+        "file_name": "0_1708_A_0053639.svs",
+        "type": "WSI",
+        "region": {
+            "x": 87243,
+            "y": 19168,
+            "width": 7296,
+            "height": 8320
+        }
+    },
+    {
+        "file_name": "0_1708_A_0053639.svs",
+        "type": "WSI",
+        "region": {
+            "x": 88651,
+            "y": 32384,
+            "width": 8801,
+            "height": 10848
+        }
+    },
+    {
+        "file_name": "0_1708_A_0053639.svs",
+        "type": "WSI",
+        "region": {
+            "x": 102125,
+            "y": 9824,
+            "width": 18754,
+            "height": 32128
+        }
+    },
+    {
+        "file_name": "0_1718_A_0053648.svs",
+        "type": "WSI",
+        "region": {
+            "x": 54067,
+            "y": 4144,
+            "width": 1632,
+            "height": 21184
+        }
+    },
+    {
+        "file_name": "0_1718_A_0053648.svs",
+        "type": "WSI",
+        "region": {
+            "x": 72324,
+            "y": 2576,
+            "width": 44018,
+            "height": 23872
+        }
+    },
+    {
+        "file_name": "0_2235_A_0049839.svs",
+        "type": "WSI",
+        "region": {
+            "x": 9633,
+            "y": 2880,
+            "width": 12577,
+            "height": 6144
+        }
+    },
+    {
+        "file_name": "0_2235_A_0049839.svs",
+        "type": "WSI",
+        "region": {
+            "x": 26467,
+            "y": 3264,
+            "width": 9633,
+            "height": 4848
+        }
+    },
+    {
+        "file_name": "0_2235_A_0049839.svs",
+        "type": "WSI",
+        "region": {
+            "x": 2784,
+            "y": 7136,
+            "width": 5248,
+            "height": 8320
+        }
+    },
+    {
+        "file_name": "0_2235_A_0049839.svs",
+        "type": "WSI",
+        "region": {
+            "x": 7408,
+            "y": 11488,
+            "width": 39093,
+            "height": 7440
+        }
+    },
+    {
+        "file_name": "0_2235_A_0049839.svs",
+        "type": "WSI",
+        "region": {
+            "x": 1520,
+            "y": 20449,
+            "width": 47686,
+            "height": 9360
+        }
+    },
+    {
+        "file_name": "0_2235_A_0049839.svs",
+        "type": "WSI",
+        "region": {
+            "x": 3264,
+            "y": 29650,
+            "width": 56023,
+            "height": 9440
+        }
+    },
+    {
+        "file_name": "0_2285_A_0047912.svs",
+        "type": "WSI",
+        "region": {
+            "x": 77280,
+            "y": 2080,
+            "width": 15872,
+            "height": 58127
+        }
+    },
+    {
+        "file_name": "0_2289_A_0056518.svs",
+        "type": "WSI",
+        "region": {
+            "x": 36996,
+            "y": 1857,
+            "width": 25827,
+            "height": 44122
+        }
+    },
+    {
+        "file_name": "0_2293_A_0056536.svs",
+        "type": "WSI",
+        "region": {
+            "x": 30244,
+            "y": 8000,
+            "width": 9537,
+            "height": 46112
+        }
+    },
+    {
+        "file_name": "0_2293_A_0056536.svs",
+        "type": "WSI",
+        "region": {
+            "x": 38757,
+            "y": 1792,
+            "width": 17922,
+            "height": 51584
+        }
+    },
+    {
+        "file_name": "0_1006_A_0052847.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 54560,
+            "y": 5696,
+            "width": 16256,
+            "height": 39840
+        }
+    },
+    {
+        "file_name": "0_1006_A_0052847.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 72992,
+            "y": 10400,
+            "width": 17120,
+            "height": 34112
+        }
+    },
+    {
+        "file_name": "0_1019_A_0053318.svs",
+        "type": "WSI",
+        "region": {
+            "x": 2832,
+            "y": 3506,
+            "width": 42352,
+            "height": 11577
+        }
+    },
+    {
+        "file_name": "0_1020_A_0053325.svs",
+        "type": "WSI",
+        "region": {
+            "x": 69482,
+            "y": 6883,
+            "width": 35109,
+            "height": 49686
+        }
+    },
+    {
+        "file_name": "0_1481_A_0049898.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 64896,
+            "y": 8448,
+            "width": 35968,
+            "height": 45376
+        }
+    },
+    {
+        "file_name": "0_1512_A_0052894.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 34624,
+            "y": 6368,
+            "width": 17472,
+            "height": 23168
+        }
+    },
+    {
+        "file_name": "0_1513_A_0052908.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 51232,
+            "y": 10272,
+            "width": 13888,
+            "height": 38688
+        }
+    },
+    {
+        "file_name": "0_1548_A_0052979.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 99744,
+            "y": 5504,
+            "width": 23904,
+            "height": 31872
+        }
+    },
+    {
+        "file_name": "0_1565_A_0049927.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 90592,
+            "y": 4096,
+            "width": 31712,
+            "height": 35584
+        }
+    },
+    {
+        "file_name": "0_1633_A_0049364.svs",
+        "type": "WSI",
+        "region": {
+            "x": 76778,
+            "y": 4417,
+            "width": 21218,
+            "height": 19816
+        }
+    },
+    {
+        "file_name": "0_1633_A_0049364.svs",
+        "type": "WSI",
+        "region": {
+            "x": 96173,
+            "y": 22953,
+            "width": 16642,
+            "height": 25098
+        }
+    },
+    {
+        "file_name": "0_1634_A_0053199.svs",
+        "type": "WSI",
+        "region": {
+            "x": 39424,
+            "y": 1888,
+            "width": 18496,
+            "height": 22937
+        }
+    },
+    {
+        "file_name": "11_26609_020_008 L05 A1 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 7680,
+            "y": 2656,
+            "width": 37088,
+            "height": 66080
+        }
+    },
+    {
+        "file_name": "11_26609_022_005 L01 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 2816,
+            "y": 4896,
+            "width": 17248,
+            "height": 15488
+        }
+    },
+    {
+        "file_name": "11_26609_023_504 L12 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 7600,
+            "y": 2176,
+            "width": 49968,
+            "height": 8640
+        }
+    },
+    {
+        "file_name": "11_26609_023_504 L12 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 4160,
+            "y": 15200,
+            "width": 56176,
+            "height": 10448
+        }
+    },
+    {
+        "file_name": "11_26609_023_508 L UNK TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 121056,
+            "y": 29632,
+            "width": 23232,
+            "height": 13504
+        }
+    },
+    {
+        "file_name": "11_26609_023_508 L UNK TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 135072,
+            "y": 8544,
+            "width": 26048,
+            "height": 19200
+        }
+    },
+    {
+        "file_name": "11_26609_023_511 L12 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 7072,
+            "y": 5824,
+            "width": 33088,
+            "height": 11648
+        }
+    },
+    {
+        "file_name": "11_26609_023_511 L12 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 8224,
+            "y": 17472,
+            "width": 43424,
+            "height": 16864
+        }
+    },
+    {
+        "file_name": "11_26609_023_511 L12 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 9888,
+            "y": 34048,
+            "width": 17920,
+            "height": 8608
+        }
+    },
+    {
+        "file_name": "11_26609_024_006 L5 TRI.svs",
+        "type": "WSI",
+        "region": {
+            "x": 80238,
+            "y": 736,
+            "width": 6849,
+            "height": 40009
+        }
+    },
+    {
+        "file_name": "11_26609_024_009 L05 TRI.svs",
+        "type": "WSI",
+        "region": {
+            "x": 68259,
+            "y": 576,
+            "width": 9056,
+            "height": 32424
+        }
+    },
+    {
+        "file_name": "11_26609_024_015 L5 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 113344,
+            "y": 7424,
+            "width": 16320,
+            "height": 25792
+        }
+    },
+    {
+        "file_name": "11_26609_025_504 L6 TRI .ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 7936,
+            "y": 7488,
+            "width": 46720,
+            "height": 37696
+        }
+    },
+    {
+        "file_name": "11_26609_025_505 L6 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 74944,
+            "y": 16256,
+            "width": 7840,
+            "height": 13376
+        }
+    },
+    {
+        "file_name": "11_26609_025_505 L6 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 87712,
+            "y": 9824,
+            "width": 6112,
+            "height": 22880
+        }
+    },
+    {
+        "file_name": "11_26609_025_505 L6 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 96160,
+            "y": 4160,
+            "width": 13952,
+            "height": 33504
+        }
+    },
+    {
+        "file_name": "11_26609_025_505 L6 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 71008,
+            "y": 27136,
+            "width": 5536,
+            "height": 5856
+        }
+    },
+    {
+        "file_name": "11_26609_029_505 L9 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 51104,
+            "y": 5664,
+            "width": 20000,
+            "height": 33152
+        }
+    },
+    {
+        "file_name": "11_26609_029_601 L01 TRI.svs",
+        "type": "WSI",
+        "region": {
+            "x": 55634,
+            "y": 352,
+            "width": 18246,
+            "height": 70807
+        }
+    },
+    {
+        "file_name": "11_26609_033_501 LUNK TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 6816,
+            "y": 4256,
+            "width": 32384,
+            "height": 53600
+        }
+    },
+    {
+        "file_name": "11_26609_097_001 L12 TRI.svs",
+        "type": "WSI",
+        "region": {
+            "x": 0,
+            "y": 0,
+            "width": 23987,
+            "height": 61653
+        }
+    },
+    {
+        "file_name": "11_26609_097_002 L12 TRI.svs",
+        "type": "WSI",
+        "region": {
+            "x": 0,
+            "y": 0,
+            "width": 18230,
+            "height": 43093
+        }
+    },
+    {
+        "file_name": "11_26609_097_007 L12 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 0,
+            "y": 2208,
+            "width": 32768,
+            "height": 61536
+        }
+    },
+    {
+        "file_name": "11_26609_097_008 L12 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 6336,
+            "y": 5984,
+            "width": 32128,
+            "height": 66880
+        }
+    },
+    {
+        "file_name": "11_26609_097_010 L12 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 2816,
+            "y": 7456,
+            "width": 31392,
+            "height": 26976
+        }
+    },
+    {
+        "file_name": "11_26609_097_015 L12 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 6736,
+            "y": 6736,
+            "width": 67088,
+            "height": 18448
+        }
+    },
+    {
+        "file_name": "11_26609_099_004 L10 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 61824,
+            "y": 8960,
+            "width": 29824,
+            "height": 55552
+        }
+    },
+    {
+        "file_name": "10_26609_023_502 L10 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 7328,
+            "y": 19328,
+            "width": 15968,
+            "height": 35808
+        }
+    },
+    {
+        "file_name": "10_26609_025_501 L5 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 40512,
+            "y": 4864,
+            "width": 24640,
+            "height": 35840
+        }
+    },
+    {
+        "file_name": "10_26609_028_501  L2 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 8288,
+            "y": 6624,
+            "width": 28864,
+            "height": 24512
+        }
+    },
+    {
+        "file_name": "11_26609_000_012_L02_TRI.svs",
+        "type": "WSI",
+        "region": {
+            "x": 46306,
+            "y": 0,
+            "width": 25505,
+            "height": 48086
+        }
+    },
+    {
+        "file_name": "11_26609_000_503_L2_TRI.svs",
+        "type": "WSI",
+        "region": {
+            "x": 71978,
+            "y": 16394,
+            "width": 18402,
+            "height": 17450
+        }
+    },
+    {
+        "file_name": "11_26609_000_503_L2_TRI.svs",
+        "type": "WSI",
+        "region": {
+            "x": 79211,
+            "y": 2081,
+            "width": 11041,
+            "height": 4931
+        }
+    },
+    {
+        "file_name": "11_26609_000_503_L2_TRI.svs",
+        "type": "WSI",
+        "region": {
+            "x": 70665,
+            "y": 10022,
+            "width": 8065,
+            "height": 4867
+        }
+    },
+    {
+        "file_name": "11_26609_009_012 L10 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 41504,
+            "y": 3136,
+            "width": 10464,
+            "height": 47520
+        }
+    },
+    {
+        "file_name": "11_26609_021_003 LUNK TRI.svs",
+        "type": "WSI",
+        "region": {
+            "x": 0,
+            "y": 0,
+            "width": 30703,
+            "height": 27344
+        }
+    },
+    {
+        "file_name": "11_26609_023_506 L10 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 60128,
+            "y": 7616,
+            "width": 21120,
+            "height": 29120
+        }
+    },
+    {
+        "file_name": "11_26609_025_503 L UNK TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 5056,
+            "y": 3712,
+            "width": 34656,
+            "height": 42080
+        }
+    },
+    {
+        "file_name": "11_26609_026_008 L09 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 10592,
+            "y": 8576,
+            "width": 22176,
+            "height": 21952
+        }
+    },
+    {
+        "file_name": "11_26609_026_008 L09 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 9024,
+            "y": 29696,
+            "width": 32896,
+            "height": 12736
+        }
+    },
+    {
+        "file_name": "12_26609_033_515 LUNK TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 4064,
+            "y": 960,
+            "width": 26784,
+            "height": 50816
+        }
+    },
+    {
+        "file_name": "12_26609_033_515 LUNK TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 107712,
+            "y": 5600,
+            "width": 15552,
+            "height": 13856
+        }
+    },
+    {
+        "file_name": "12_26609_033_516 L01 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 3232,
+            "y": 448,
+            "width": 32800,
+            "height": 31360
+        }
+    },
+    {
+        "file_name": "12_26609_033_517 LUNK TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 4544,
+            "y": 4496,
+            "width": 30224,
+            "height": 22368
+        }
+    },
+    {
+        "file_name": "12_26609_096_003 L11 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 8064,
+            "y": 6704,
+            "width": 14784,
+            "height": 15904
+        }
+    },
+    {
+        "file_name": "12_26609_099_008 L10 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 116320,
+            "y": 6144,
+            "width": 13056,
+            "height": 51104
+        }
+    },
+    {
+        "file_name": "13_26609_007_001 L10 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 6016,
+            "y": 3800,
+            "width": 6024,
+            "height": 7760
+        }
+    },
+    {
+        "file_name": "13_26609_027_520 L06 TRI.svs",
+        "type": "WSI",
+        "region": {
+            "x": 1000,
+            "y": 1288,
+            "width": 17296,
+            "height": 15218
+        }
+    },
+    {
+        "file_name": "13_26609_027_521  L02 TRI.svs",
+        "type": "WSI",
+        "region": {
+            "x": 0,
+            "y": 0,
+            "width": 38697,
+            "height": 27456
+        }
+    },
+    {
+        "file_name": "13_26609_027_521  L02 TRI.svs",
+        "type": "WSI",
+        "region": {
+            "x": 82548,
+            "y": 14080,
+            "width": 23333,
+            "height": 24160
+        }
+    },
+    {
+        "file_name": "13_26609_028_524 L07 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 58768,
+            "y": 816,
+            "width": 44064,
+            "height": 27344
+        }
+    },
+    {
+        "file_name": "13_26609_029_104 L07 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 146976,
+            "y": 6624,
+            "width": 24704,
+            "height": 44160
+        }
+    },
+    {
+        "file_name": "13_26609_029_104 L07 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 0,
+            "y": 5984,
+            "width": 41216,
+            "height": 46816
+        }
+    },
+    {
+        "file_name": "12_26609_022_017 06 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 17408,
+            "y": 5280,
+            "width": 12256,
+            "height": 27936
+        }
+    },
+    {
+        "file_name": "12_26609_022_017 06 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 11072,
+            "y": 22400,
+            "width": 3968,
+            "height": 8896
+        }
+    },
+    {
+        "file_name": "12_26609_022_019 L04 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 54912,
+            "y": 8096,
+            "width": 12960,
+            "height": 3776
+        }
+    },
+    {
+        "file_name": "12_26609_022_019 L04 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 54976,
+            "y": 12864,
+            "width": 12352,
+            "height": 9312
+        }
+    },
+    {
+        "file_name": "12_26609_022_019 L04 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 55680,
+            "y": 24544,
+            "width": 9344,
+            "height": 11104
+        }
+    },
+    {
+        "file_name": "12_26609_023_513 LUNK1 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 54240,
+            "y": 21216,
+            "width": 23808,
+            "height": 37376
+        }
+    },
+    {
+        "file_name": "12_26609_024_017 L5 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 110560,
+            "y": 10432,
+            "width": 7136,
+            "height": 27040
+        }
+    },
+    {
+        "file_name": "12_26609_024_017 L5 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 117664,
+            "y": 12480,
+            "width": 5152,
+            "height": 20096
+        }
+    },
+    {
+        "file_name": "12_26609_024_018 L5 TRI .ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 130848,
+            "y": 18080,
+            "width": 27104,
+            "height": 30784
+        }
+    },
+    {
+        "file_name": "12_26609_024_019 L5 TRI .ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 99968,
+            "y": 896,
+            "width": 7520,
+            "height": 41728
+        }
+    },
+    {
+        "file_name": "12_26609_024_022 L05 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 167584,
+            "y": 3040,
+            "width": 7744,
+            "height": 34304
+        }
+    },
+    {
+        "file_name": "12_26609_024_022 L05 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 183360,
+            "y": 10048,
+            "width": 5056,
+            "height": 15872
+        }
+    },
+    {
+        "file_name": "12_26609_024_501 L5 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 61152,
+            "y": 5792,
+            "width": 20256,
+            "height": 34432
+        }
+    },
+    {
+        "file_name": "12_26609_025_509 L06 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 79040,
+            "y": 4672,
+            "width": 44000,
+            "height": 7040
+        }
+    },
+    {
+        "file_name": "12_26609_025_509 L06 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 82304,
+            "y": 19744,
+            "width": 31296,
+            "height": 20448
+        }
+    },
+    {
+        "file_name": "12_26609_026_011 L09 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 96512,
+            "y": 6976,
+            "width": 48896,
+            "height": 60096
+        }
+    },
+    {
+        "file_name": "11_26609_026_501_L9 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 93408,
+            "y": 10880,
+            "width": 25728,
+            "height": 17952
+        }
+    },
+    {
+        "file_name": "11_26609_027_503 L03 TRI.svs",
+        "type": "WSI",
+        "region": {
+            "x": 0,
+            "y": 160,
+            "width": 17984,
+            "height": 31381
+        }
+    },
+    {
+        "file_name": "11_26609_027_508 L06 TRI.svs",
+        "type": "WSI",
+        "region": {
+            "x": 6608,
+            "y": 1232,
+            "width": 11888,
+            "height": 6914
+        }
+    },
+    {
+        "file_name": "11_26609_027_508 L06 TRI.svs",
+        "type": "WSI",
+        "region": {
+            "x": 176,
+            "y": 10531,
+            "width": 39216,
+            "height": 29098
+        }
+    },
+    {
+        "file_name": "11_26609_027_510_L2_TRI.svs",
+        "type": "WSI",
+        "region": {
+            "x": 208,
+            "y": 1568,
+            "width": 32397,
+            "height": 32151
+        }
+    },
+    {
+        "file_name": "11_26609_028_004 L5 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 8080,
+            "y": 4400,
+            "width": 6704,
+            "height": 18512
+        }
+    },
+    {
+        "file_name": "11_26609_028_004 L5 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 19984,
+            "y": 18656,
+            "width": 9552,
+            "height": 26400
+        }
+    },
+    {
+        "file_name": "11_26609_028_004 L5 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 3840,
+            "y": 33456,
+            "width": 5664,
+            "height": 13536
+        }
+    },
+    {
+        "file_name": "11_26609_028_005 L10 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 5952,
+            "y": 3792,
+            "width": 10928,
+            "height": 6320
+        }
+    },
+    {
+        "file_name": "11_26609_028_005 L10 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 2544,
+            "y": 15952,
+            "width": 20080,
+            "height": 6944
+        }
+    },
+    {
+        "file_name": "11_26609_028_511 L13 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 68768,
+            "y": 4768,
+            "width": 20000,
+            "height": 19264
+        }
+    },
+    {
+        "file_name": "11_26609_028_511 L13 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 64640,
+            "y": 29056,
+            "width": 13696,
+            "height": 13344
+        }
+    },
+    {
+        "file_name": "11_26609_029_101.LA1.A.TRI.svs",
+        "type": "WSI",
+        "region": {
+            "x": 512,
+            "y": 1200,
+            "width": 28592,
+            "height": 67153
+        }
+    },
+    {
+        "file_name": "11_26609_029_502 L04 TRI.svs",
+        "type": "WSI",
+        "region": {
+            "x": 41866,
+            "y": 1168,
+            "width": 19940,
+            "height": 33429
+        }
+    },
+    {
+        "file_name": "11_26609_029_504 L14 _ TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 82368,
+            "y": 3584,
+            "width": 37952,
+            "height": 47936
+        }
+    },
+    {
+        "file_name": "11_26609_029_504 L14 _ TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 88576,
+            "y": 55424,
+            "width": 11584,
+            "height": 12288
+        }
+    },
+    {
+        "file_name": "13_26609_095_503 L04 TRI.svs",
+        "type": "WSI",
+        "region": {
+            "x": 3504,
+            "y": 36531,
+            "width": 22340,
+            "height": 13953
+        }
+    },
+    {
+        "file_name": "13_26609_095_503 L04 TRI.svs",
+        "type": "WSI",
+        "region": {
+            "x": 5489,
+            "y": 51236,
+            "width": 17059,
+            "height": 5760
+        }
+    },
+    {
+        "file_name": "14_26609_024_037 L05 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 139360,
+            "y": 6816,
+            "width": 5376,
+            "height": 21024
+        }
+    },
+    {
+        "file_name": "14_26609_024_037 L05 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 149024,
+            "y": 6208,
+            "width": 4384,
+            "height": 22976
+        }
+    },
+    {
+        "file_name": "14_26609_027_523 L03 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 115232,
+            "y": 7008,
+            "width": 41888,
+            "height": 36736
+        }
+    },
+    {
+        "file_name": "14_26609_027_523 L03 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 2656,
+            "y": 4000,
+            "width": 37504,
+            "height": 32288
+        }
+    },
+    {
+        "file_name": "14_26609_029_602 LUNK TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 2304,
+            "y": 32640,
+            "width": 38848,
+            "height": 41920
+        }
+    },
+    {
+        "file_name": "14_26609_029_602 LUNK TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 40960,
+            "y": 31424,
+            "width": 8000,
+            "height": 53376
+        }
+    },
+    {
+        "file_name": "14_26609_029_602 LUNK TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 166080,
+            "y": 12608,
+            "width": 16896,
+            "height": 72512
+        }
+    },
+    {
+        "file_name": "16_26609_001_515 L07 TRI.svs",
+        "type": "WSI",
+        "region": {
+            "x": 54884,
+            "y": 2209,
+            "width": 34755,
+            "height": 30354
+        }
+    },
+    {
+        "file_name": "16_26609_021_515 L03 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 2176,
+            "y": 1824,
+            "width": 52832,
+            "height": 35168
+        }
+    },
+    {
+        "file_name": "16_26609_021_516 L03 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 8096,
+            "y": 6720,
+            "width": 39616,
+            "height": 18304
+        }
+    },
+    {
+        "file_name": "16_26609_021_518 L03 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 6656,
+            "y": 2912,
+            "width": 74496,
+            "height": 30944
+        }
+    },
+    {
+        "file_name": "16_26609_021_520 L03 TRI.ndpi",
+        "type": "WSI",
+        "region": {
+            "x": 11488,
+            "y": 5120,
+            "width": 27456,
+            "height": 59968
+        }
+    },
+    {
+        "file_name": "17_26609_035_510 LA1-3 TRI.svs",
+        "type": "WSI",
+        "region": {
+            "x": 1968,
+            "y": 2769,
+            "width": 55472,
+            "height": 19143
+        }
+    },
+    {
+        "file_name": "17_26609_040_046 Control TRI.svs",
+        "type": "WSI",
+        "region": {
+            "x": 1568,
+            "y": 4672,
+            "width": 46023,
+            "height": 71371
+        }
+    }
+]

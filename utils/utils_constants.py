@@ -22,14 +22,14 @@ CLASSIFICATION_PATH = "/DataMount/NEPTUNE/Vessel_Project/data_selection/Neptune_
 COMBINED_CLASSIFICATION_PATH = "/DataMount/NEPTUNE/Vessel_Project/data_selection/Neptune_Artery_Classification_Combined.csv"
 ANALYSIS_DOC_PATH = "/DataMount/NEPTUNE/Vessel_Project/data_selection/Artery_Analysis_Report.docx"
 
+TISSUE_SEGMENTATION_REGION_PATH = "/workspace/vessel_ai/step_3_vessel_labelling/inference_list_all.json"
 SEGMENTATION_DIR = "/DataMount/NEPTUNE/Vessel_Project/data_selection/ann_geojson/all"
 VESSEL_SEGMENTATION_REF_PATH = "/DataMount/NEPTUNE/Vessel_Project/data_selection/Normal Vessels GT Generation .xlsx"
 INNER_SEGMENTATION_REF_DIR = "/DataMount/NEPTUNE/Vessel_Project/data_selection/ann_geojson/batch_0_manual_annotated"
 
-# MEASUREMENTS_PATH = "/DataMount/NEPTUNE/Vessel_Project/thickness_measurements/thickness_0707.json"
 MEASUREMENTS_DIR = "/DataMount/NEPTUNE/Vessel_Project/Measurements"
 
-FEATURES_PATH = "/DataMount/NEPTUNE/Vessel_Project/features_0707.xlsx"
+FEATURES_PATH = "/DataMount/NEPTUNE/Vessel_Project/Features/features_0809.xlsx"
 
 # Data paths
 TRI_CASE_DIR = "/DataMount/NEPTUNE/Vessel_Project/TRI/"

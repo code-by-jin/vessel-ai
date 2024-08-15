@@ -71,28 +71,39 @@ def extract_base_features(cnt_outer, cnts_middle, cnts_inner, cnts_hys):
     }
     return base_features
 
-def extract_measurement_features(measurements_vessel, artery_area):
+def extract_measurement_features(measurements_vessel, artery_area, img_name):
     # Initialize arrays for ratio calculations
-    all_media = []
-    all_intima = []
-    all_ratio = []
+    # all_media = []
+    # all_intima = []
+    # all_ratio = []
+
+    m = max(measurements_vessel, key=lambda x: x['Curr_Area_Lumen'])
+
     # Iterate over each row in the measurement DataFrame
-    for m in measurements_vessel:
-        m_media = np.array(m["Thickness_Media"])
-        m_intima = np.array(m["Thickness_Intima"])
+    # for m in measurements_vessel:
+    m_media = np.array(m["Thickness_Media"])
+    m_intima = np.array(m["Thickness_Intima"])
 
-        # Example processing assuming m_media and m_intima are arrays
-        m_wall = np.array([x + y if x >= 0 else x for x, y in zip(m_media, m_intima)])
+    # Example processing assuming m_media and m_intima are arrays
+    m_wall = np.array([x + y if x >= 0 else x for x, y in zip(m_media, m_intima)])
 
-        m_media, m_intima, m_ratio = post_process(m_media, m_intima, m_wall,
-                                                  t_multi=15, t_open_lumen=30, t_mediam=15, t_average=15, 
-                                                  artery_area=artery_area)
-        all_media.extend(m_media)
-        all_intima.extend(m_intima)
-        all_ratio.extend(m_ratio)
+    m_media, m_intima, m_ratio = post_process(m_media, m_intima, m_wall,
+                                                t_multi=30, t_open_lumen=30, t_mediam=15, t_average=15, 
+                                                artery_area=artery_area)
+    
+    assert(len(m_media) == len(m_intima) == len(m_ratio))
+        # all_media.extend(m_media)
+        # all_intima.extend(m_intima)
+        # all_ratio.extend(m_ratio)
+    if len([x for x in m_media if x>=0]) == 0: 
+        logging.warning(
+            f"After Post Processing, No measurements for image {img_name}."
+            )
+        return {}
 
     # Assuming all_media and all_intima are lists of arrays, we concatenate them to perform a global calculation
-    features_intima, features_media, features_ratio = extract_features(all_media, all_intima, all_ratio)
+    features_intima, features_media, features_ratio = extract_features(m_media, m_intima, m_ratio)
+    # features_intima, features_media, features_ratio = extract_features(all_media, all_intima, all_ratio)
     return {**features_intima, **features_media, **features_ratio}
 
 
@@ -100,9 +111,8 @@ def extract_features_slide(classifications, segmentations, measurements, slide_b
     slide_features = []
     for _, row in classifications.iterrows():
         img_name = row["Image Name"]
-        bbox_x, bbox_y, bbox_width, bbox_height = map(int, row["Bounding Box"].split(","))  
-        cnt_outer, cnts_middle, cnts_inner, cnts_hys = get_contours(segmentations, slide_basename, img_name,
-                                                                    bbox_x, bbox_y, bbox_width, bbox_height)
+        bbox = map(int, row["Bounding Box"].split(","))  
+        cnt_outer, cnts_middle, cnts_inner, cnts_hys = get_contours(segmentations, img_name, bbox)
         base_features = extract_base_features(cnt_outer, cnts_middle, cnts_inner, cnts_hys)
 
         measurements_vessel = measurements[img_name]
@@ -112,7 +122,7 @@ def extract_features_slide(classifications, segmentations, measurements, slide_b
                     )
             measurement_features = {}
         else:
-            measurement_features = extract_measurement_features(measurements_vessel, cv2.contourArea(cnt_outer))
+            measurement_features = extract_measurement_features(measurements_vessel, cv2.contourArea(cnt_outer), img_name)
 
         slide_features.append({**{"Slide Name": slide_basename}, **row.to_dict(), **base_features, **measurement_features})
     return slide_features

@@ -112,7 +112,7 @@ def get_perp(point_start, point_end):
 
     
 def measure_thickness_per_angle(start_pt, angle, poly_outer, poly_middle, poly_inner, gray, open_lumen_th,
-                                angle_width=15, exclude=[], vis=None):
+                                angle_width=15, exclude=[], vis=None, vis_helper_i=None):
     
     insec_mid = get_insec_from_centre_to_poly(start_pt, angle, poly_middle)
     if insec_mid is None:
@@ -126,6 +126,10 @@ def measure_thickness_per_angle(start_pt, angle, poly_outer, poly_middle, poly_i
     # Extract the patch ensuring it does not exceed image dimensions
     patch = gray[y1:y2, x1:x2]
     patch_average = np.min(patch)
+    if vis_helper_i is not None and vis_helper_i <= 0:
+        if angle%10==0:        
+            vis_angle_measurement(vis, True, start_pt, insec_mid)
+        return 0, 0
 
     # Check if patch average is indicative of being in the lumen
     if patch_average > open_lumen_th - 10:
@@ -175,10 +179,9 @@ def measure_thickness_per_angle(start_pt, angle, poly_outer, poly_middle, poly_i
     dist_inner = euclidean(insec_mid, insec_inner)
         
     if angle%10==0:        
-        vis_angle_measurement(vis, start_pt, 
-                            insec_inner, insec_mid, insec_outer, 
-                            insec_mid_bef, insec_mid_aft, 
-                            dist_inner, dist_outer, None)
+        vis_angle_measurement(vis, False, start_pt, insec_mid, insec_inner, insec_outer)
+                            # insec_mid_bef, insec_mid_aft, 
+                            # dist_inner, dist_outer, None)
         
     return dist_outer, dist_inner
 
@@ -221,10 +224,13 @@ def measure_thickness(cnt_outer, cnt_middle, cnt_inner, gray, angle_width=15, ex
 
     for (i, angle) in enumerate(angles):
 
-        if vis_helper is not None and vis_helper[i] <= 0: continue
+        if vis_helper is not None:
+            vis_helper_i = vis_helper[i]
+        else:
+            vis_helper_i = None
 
         dist_outer, dist_inner = measure_thickness_per_angle(
-            (cx, cy), angle, poly_outer, poly_middle, poly_inner, gray, percentile_value, angle_width, exclude, vis)
+            (cx, cy), angle, poly_outer, poly_middle, poly_inner, gray, percentile_value, angle_width, exclude, vis, vis_helper_i)
         thickness_outer[i], thickness_inner[i] = dist_outer, dist_inner
     
     return thickness_outer, thickness_inner

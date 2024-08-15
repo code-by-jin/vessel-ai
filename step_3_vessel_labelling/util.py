@@ -21,14 +21,14 @@ def plot_artery_counts_by_case(artery_type, counts, ax):
     # Set axis labels and title with context-specific information
     ax.set_xlabel(f'Count of {artery_type} per Whole Slide Image', fontsize=18)
     ax.set_ylabel('Frequency of Slides', fontsize=18)
-    ax.set_title(f'Distribution of {artery_type} Across Slides', fontsize=20)
+    # ax.set_title(f'Distribution of {artery_type} Across Slides', fontsize=20)
 
 
 # Count occurrences of each severity level within each Artery Type
 def barplot(counts, col, ax):
     # Plotting directly on the provided axis
     counts.plot(kind='bar', ax=ax, legend=True)
-    ax.set_title(f'Distribution of {col} by Artery Type', fontsize=20)
+    # ax.set_title(f'Distribution of {col} by Artery Type', fontsize=20)
     ax.set_ylabel('Count', fontsize=15)
     ax.set_xlabel('')
     ax.set_xticklabels(ax.get_xticklabels(), rotation=30, fontsize=18)
@@ -87,7 +87,7 @@ def distribution_analysis(df, col, ax, title, color):
     
     # Setting the labels and titles
     ax.set_xlabel('Severity Score', fontsize=15)
-    ax.set_title(title, fontsize=18)
+    # ax.set_title(title, fontsize=18)
     ax.set_ylabel('Count', fontsize=15)
     ax.tick_params(axis='y', which='major', labelsize=15)
 
