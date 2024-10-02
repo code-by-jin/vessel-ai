@@ -29,7 +29,7 @@ def barplot(counts, col, ax):
     # Plotting directly on the provided axis
     counts.plot(kind='bar', ax=ax, legend=True)
     # ax.set_title(f'Distribution of {col} by Artery Type', fontsize=20)
-    ax.set_ylabel('Count', fontsize=15)
+    ax.set_ylabel('Count', fontsize=18)
     ax.set_xlabel('')
     ax.set_xticklabels(ax.get_xticklabels(), rotation=30, fontsize=18)
     ax.tick_params(axis='y', labelsize=18)

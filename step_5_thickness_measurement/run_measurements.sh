@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Define arrays for lumen and hyalinosis options
-lumen_options=("--lumen_transfer convex")
+lumen_options=("")
 # hyalinosis_options=("" "--exclude_hyalinosis manual" "--exclude_hyalinosis dl")
-hyalinosis_options=("--exclude_hyalinosis manual")
+hyalinosis_options=("")
 
 # Loop through all combinations of options
 for lumen in "${lumen_options[@]}"; do

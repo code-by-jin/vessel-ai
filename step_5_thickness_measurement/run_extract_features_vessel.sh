@@ -5,7 +5,7 @@ PYTHON_SCRIPT_PATH="./extract_features.py"
 
 # Define all possible suffix options
 SUFFIX_OPTIONS=(
-    # "_measurements"
+    "_measurements"
     "_measurements_exclude_hya_manual"
     # "_measurements_exclude_hya_dl"
     # "_measurements_lumen_convex"

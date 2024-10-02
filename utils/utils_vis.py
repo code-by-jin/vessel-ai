@@ -58,8 +58,8 @@ def gallery_view(images, titles, cols=5):
                 if image.shape[1] > image.shape[0]:  # image.shape gives (height, width, channels)
                     image = np.rot90(image)  # Rotate 90 degrees
                 axs[i].imshow(image)
-                axs[i].set_title(titles[index], fontsize=20)
-                # axs[i].set_title(titles[index], fontsize=15)
+                # axs[i].set_title(titles[index], fontsize=20)
+                axs[i].set_title(titles[index], fontsize=40)
 
                 axs[i].axis('off')
             else:
